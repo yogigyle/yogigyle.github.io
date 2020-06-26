@@ -2,7 +2,7 @@
 layout: page
 title: Elements
 description: How have we all come to be?
-image: assets/images/elements.jpg
+image:
 nav-menu: true
 ---
 
