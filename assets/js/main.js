@@ -249,8 +249,7 @@
 		// Menu.
 			var $menu = $('#menu'),
 				$menuInner;
-				// Inserting test logs
-				console.log('test');
+
 			$menu.wrapInner('<div class="inner"></div>');
 			$menuInner = $menu.children('.inner');
 			$menu._locked = false;
