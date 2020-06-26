@@ -1,0 +1,36 @@
+# site settings
+title: Home of the Flow
+subtitle: by Avigyle Zeitchik
+email: avizeitchik@gmail.com
+description: Thank you for visiting Home of the Flow, this webpage<br /> is currently under construction, please visit again soon!
+baseurl: "/welcome" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address: 1234 Somewhere Road
+city: Tel Aviv
+state: 
+zip_code: 
+country: Israel
+phone: +972 52-333-4444
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: https://gitlab.com/u/AccountName
+googleplus_url: https://plus.google.com/u/0/+AccountName
+instagram_url: https://instagram.com
+linkedin_url: https://www.linkedin.com/in/Account-Name-a4ba1195
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/AccountName
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
