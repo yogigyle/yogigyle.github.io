@@ -3,8 +3,8 @@ title: Home of the Flow
 subtitle: by Avigyle Zeitchik
 email: avizeitchik@gmail.com
 description: Thank you for visiting Home of the Flow, this webpage<br /> is currently under construction, please visit again soon!
-baseurl: "/welcome" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+baseurl: # (Was "/welcome") the subpath of your site, e.g. /blog
+url: https://yogigyle.github.io # (Was empty) the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
 city: Tel Aviv
