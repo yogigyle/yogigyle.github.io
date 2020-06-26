@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
+title: About
+description: How have we all come to grow?
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
