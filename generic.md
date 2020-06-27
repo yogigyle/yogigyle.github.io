@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About
+title: About Gyle
 description: How have we all come to grow?
 image: assets/images/pic11.jpg
 nav-menu: true

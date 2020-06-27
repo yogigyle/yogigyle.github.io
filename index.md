@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Avigyle'
+landing-title: 'Home of the Flow'
 description: null
 image: null
 author: null
