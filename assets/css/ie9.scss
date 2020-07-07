@@ -3,6 +3,26 @@
 @import 'libs/mixins';
 @import 'libs/skel';
 
+/* Spotlights2 */
+
+.spotlights2 {
+	> section {
+		&:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+		> .image {
+			float: left;
+		}
+
+		> .content {
+			float: left;
+		}
+	}
+}
+
 /* Spotlights */
 
 	.spotlights {

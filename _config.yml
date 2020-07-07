@@ -1,8 +1,8 @@
 # site settings
-title: yogigyle
+title: Home of the Flow
 subtitle: by Avigyle Zeitchik
 email: avizeitchik@gmail.com
-description: Thank you for visiting Home of the Flow, this webpage<br /> is currently under construction, please visit again soon!
+description: Thank you for visiting yogigyle.com, this webpage is<br /> currently under construction, please visit again soon!
 baseurl: # (Was "/welcome") the subpath of your site, e.g. /blog
 url: https://yogigyle.github.io # (Was empty) the base hostname & protocol for your site
 author:
