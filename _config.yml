@@ -5,7 +5,7 @@ email: avizeitchik@gmail.com
 description: Thank you for visiting yogigyle.com, this webpage is<br /> currently under construction, please visit again soon!
 baseurl: # (Was "/welcome") the subpath of your site, e.g. /blog
 url: https://yogigyle.com # (Was empty) the base hostname & protocol for your site
-author:
+author: 
 street_address: 1234 Somewhere Road
 city: Tel Aviv
 state: 
