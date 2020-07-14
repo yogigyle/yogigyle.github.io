@@ -1,8 +1,8 @@
 ---
 title: Testimonials
 layout: landing
-description: Description for Testimonials page
-image: assets/images/testimonials.jpg
+description: 'What the Yogis are saying'
+image: assets/images/pic07.jpg
 nav-menu: true
 ---
 

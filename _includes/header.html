@@ -5,6 +5,7 @@
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
 	<a href="{{ "" | absolute_url }}" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>		<!-- Removed a backslash (/) after "...absolute_url }}/"-->
 	<nav>
+	<nav>
 		<a href="#menu">Menu</a>
 	</nav>
 </header>
@@ -15,6 +16,7 @@
         {% for page in site.pages %}
 		    {% if page.layout == "home" %}
 		        <li><a href="{{ "" | absolute_url }}">{{ page.title }}</a></li>		<!-- Removed a backslash (/) after "...absolute_url }}/"-->
+	<nav>
 	    	{% endif %}
 		{% endfor %}
 		{% for page in site.html_pages %}
