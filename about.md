@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Gyle
-description:
+description: How have we all come to grow?
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
