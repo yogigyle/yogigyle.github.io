@@ -1,7 +1,7 @@
 ---
 title: Testimonials
 layout: landing
-description: 'What the Yogis are saying'
+description:
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
