@@ -13,15 +13,18 @@
 			background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
 
 			> .image {
+				// @include padding(3em, 3em);
 				background-position: center center;
 				background-size: cover;
+				padding: 4%; // [Aviram] Add padding to images
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 30%;
+				width: 25%;
 
 				img {
-					border-radius: 0;
+					border-radius: 50%; // [Aviram] Makes image circular, was originally 0
+					border: 5px solid white;  // [Aviram] Added to add white border to images
 					display: block;
 					width: 100%;
 				}
@@ -44,18 +47,18 @@
 				@include vendor('flex-direction', 'column');
 				@include vendor('justify-content', 'center');
 				@include vendor('align-items', 'center');
-				@include padding(2em, 3em);
-				width: 70%;
+				@include padding(2em, 3em); //[Aviram] original padding(2em, 3em)
+				width: 75%;
 
 				> .inner {
-					margin: 0 auto;
+					margin: 0 auto; //[Aviram] original 0 auto;
 					max-width: 100%;
 					width: _size(inner);
 				}
 			}
 
 			&:nth-child(2n) {
-				@include vendor('flex-direction', 'row-reverse');
+			//	@include vendor('flex-direction', 'row-reverse');
 				background-color: desaturate(lighten(_palette(bg-alt), 4), 2);
 
 				> .content {
@@ -67,11 +70,11 @@
 		@include breakpoint(xlarge) {
 			> section {
 				> .image {
-					width: 40%;
+					width: 25%; //[Aviram] original 40%
 				}
 
 				> .content {
-					width: 60%;
+					width: 75%; //[Aviram] original 60%
 				}
 			}
 		}
@@ -79,11 +82,11 @@
 		@include breakpoint(large) {
 			> section {
 				> .image {
-					width: 45%;
+					width: 25%; //[Aviram] original 45%
 				}
 
 				> .content {
-					width: 55%;
+					width: 75%; //[Aviram] original 55%
 				}
 			}
 		}
@@ -93,12 +96,12 @@
 				display: block;
 
 				> .image {
-					width: 100%;
+					width: 40%; //[Aviram] original 100%
 				}
 
 				> .content {
 					@include padding(4em, 3em);
-					width: 100%;
+					width: 60%; //[Aviram] original 100%
 				}
 			}
 		}

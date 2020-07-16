@@ -67,11 +67,11 @@
 		@include breakpoint(xlarge) {
 			> section {
 				> .image {
-					width: 40%;
+					width: 30%; //[Aviram] Original 40%
 				}
 
 				> .content {
-					width: 60%;
+					width: 70%; //[Aviram] Original 60%
 				}
 			}
 		}
@@ -79,11 +79,11 @@
 		@include breakpoint(large) {
 			> section {
 				> .image {
-					width: 25%;  // Original was 45%
+					width: 30%;  // Original was 45%
 				}
 
 				> .content {
-					width: 75%; // Original was 55%
+					width: 70%; // Original was 55%
 				}
 			}
 		}

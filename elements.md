@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: landing
 title: Elements
-description: Description for Elements page
+description: Mind, Body, and Spirit; How yoga translates on &amp; off the mat
 image: assets/images/elements.jpg
 nav-menu: true
+author: null
 ---
 
 <!-- Main -->
@@ -12,9 +13,9 @@ nav-menu: true
 <!-- One -->
 <section id="one">
 	<div class="inner">
-		<header class="major">
-			<h2>Avigyle's Elements</h2>
-		</header>
+		<!-- <header class="major">
+			<h2>Avigyle's Elements</h2> 
+		</header> -->
 		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
 	</div>
 </section>
@@ -30,7 +31,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Chakras, Part II</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>This post focuses on the last 4 chakras which are more spiritual in nature, and govern love, self-expression, intuition, and higher consciousness. Read on for how to recognize possible imbalances, and how you can best tap into those chakras, exploring and learning more about yourself on the way.</p>
 				<ul class="actions">
 					<li><a href="{% post_url 2020-07-11-chakras2 %}" class="button">Continue Reading</a></li>
 				</ul>
@@ -46,7 +47,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Chakras, Part I</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>Aligning the chakras is a powerful way of tuning it to ourselves, and to the world. Here’s a beginner’s guide to the main theories surrounding the first 3 chakras- as well as symptoms of imbalances within them, and steps you can take to align those imbalances.</p>
 				<ul class="actions">
 					<li><a href="{% post_url 2020-07-09-chakras1 %}" class="button">Continue Reading</a></li>
 				</ul>
@@ -62,7 +63,7 @@ nav-menu: true
 				<header class="major">
 					<h3>Vayus</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+				<p>In yogi tradition, our internal energy & life force (Prana) can be categorized into five different Vayus, or patterns of movement of the energy as it travels through our body. Each Vayu has unique effects on the body & mind, and understanding how they work can lead to a deeper practice and greater sense of well-being.</p>
 				<ul class="actions">
 					<li><a href="{% post_url 2020-07-06-vayus %}" class="button">Continue Reading</a></li>
 				</ul>

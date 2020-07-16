@@ -1,33 +1,33 @@
 # site settings
 title: Home of the Flow
 subtitle: by Avigyle Zeitchik
-email: avizeitchik@gmail.com
+email: 
 description: Thank you for visiting yogigyle.com, this webpage is<br /> currently under construction, please visit again soon!
 baseurl: # (Was "/welcome") the subpath of your site, e.g. /blog
 url: https://yogigyle.com # (Was empty) the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Tel Aviv
+street_address:
+city: 
 state: 
 zip_code: 
-country: Israel
-phone: +972 52-333-4444
+country: 
+phone: 
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 4
 
 # social settings
 500px_url:
-facebook_url:
+facebook_url: https://facebook.com/yogigyle
 github_url:
-gitlab_url: https://gitlab.com/u/AccountName
-googleplus_url: https://plus.google.com/u/0/+AccountName
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/Account-Name-a4ba1195
+gitlab_url:
+googleplus_url:
+instagram_url: https://instagram.com/yogigyle
+linkedin_url: https://www.linkedin.com/in/avigyle-zeitchik-a48455b0
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/AccountName
+twitter_url:
 
 # build settings
 markdown: kramdown
