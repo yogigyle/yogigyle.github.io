@@ -96,12 +96,12 @@
 				display: block;
 
 				> .image {
-					width: 40%; //[Aviram] original 100%
+					width: 100%; //[Aviram] original 100%
 				}
 
 				> .content {
 					@include padding(4em, 3em);
-					width: 60%; //[Aviram] original 100%
+					width: 100%; //[Aviram] original 100%
 				}
 			}
 		}
