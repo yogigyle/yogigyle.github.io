@@ -8,4 +8,5 @@ author: null
 show_tile: false
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+<blockquote>“Move your joints every day. You have to find your own tricks. Bury your mind deep in your heart, and watch the body move by itself.”</blockquote>
+<i style="text-align:left"><b>- Sri Dharma Mittra</b></i>

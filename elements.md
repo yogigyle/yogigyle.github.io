@@ -14,9 +14,10 @@ author: null
 <section id="one">
 	<div class="inner">
 		<!-- <header class="major">
-			<h2>Avigyle's Elements</h2> 
+			<h2>Welcome to the Inner Workings</h2> 
 		</header> -->
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+		<p><b>Welcome to the Inner Workings...</b><br>
+		Below are my thoughts and observations – all insights that help me connect to my spirit and body, mother nature, and of course, you.  Please share your feedback – thank you for allowing me to enter your life, and look forward to having you in mine.</p>
 	</div>
 </section>
 
