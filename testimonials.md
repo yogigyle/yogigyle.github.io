@@ -9,7 +9,7 @@ nav-menu: true
 <!-- Main -->
 <div id="main">
 
-<!-- One -->
+<!-- INTRO, TURNED OFF:
 <section id="one">
 	<div class="inner">
 		<header class="major">
@@ -17,7 +17,7 @@ nav-menu: true
 		</header>
 		<p>"Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna."</p>
 	</div>
-</section>
+</section> -->
 
 <!-- Main -->
 <div id="main" class="alt">
