@@ -22,7 +22,7 @@ nav-menu: true
 <span class="image left"><img src="{% link assets/images/about2.jpg %}" alt="" /></span>
 <p>I’m Avigyle, raised in NYC and living in Tel Aviv since 2017.</p>
 
-<p>My love affair with yoga began while I was in my final year of University 4 years ago. At the time, I was experiencing regular anxiety from a combination of feeling disconnected from myself, craving a creative outlet, and my uncertainty as to what my next “life move” was. I was immediately drawn to the technical aspects of asana— the physical postures. I was excited by the challenge of teaching my body something new – and my motivation grew stronger as I noticed the benefits; flexibility, strength, and a stillness and connection to my body that I had never felt before. I began to notice the deep sense of calmness that I experienced after every practice, and my mind and body came to look forward to this feeling.</p>
+<p>My love affair with yoga began while I was in my final year of University. At the time, I was experiencing regular anxiety from a combination of feeling disconnected from myself, craving a creative outlet, and my uncertainty as to what my next “life move” was. I was immediately drawn to the technical aspects of asana— the physical postures. I was excited by the challenge of teaching my body something new – and my motivation grew stronger as I noticed the benefits; flexibility, strength, and a stillness and connection to my body that I had never felt before. I began to notice the deep sense of calmness that I experienced after every practice, and my mind and body came to look forward to this feeling.</p>
 
 <p>Ultimately, I decided to literally take my life in a different direction and move to Tel Aviv after graduating. This choice was a deeply intuitive one, and probably the first time in my life where I acted based on pure gut instinct that doing so would work out in my favor. This kind of self-trust and intuition is an integral part of what yoga means to me, and is probably the most important benefit that I’ve experienced.</p>
 
@@ -37,9 +37,7 @@ nav-menu: true
 
 <p>I’ll be sharing original thoughts on yoga philosophy and how yoga has influenced my life, along with favorite poses and techniques that I have used successfully to increase my own strength & flexibility. I would also love to hear and share your experiences, along with suggestions of any additional content you would like me to share.</p>
 
-<p>Yoga is an experiential science. Practice it. Live it. Breathe it.</p>
-
-<p>I look forward to speaking with you and us inspiring one another.</p>
+<p>I look forward to speaking with you and inspiring one another.</p>
 
 <p>Love & Light,<br />
 Avigyle</p>
