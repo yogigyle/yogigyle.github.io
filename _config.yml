@@ -36,5 +36,5 @@ sass:
   style: compressed
 
 # Staticman comments
-staticman_url: https://api.staticman.net/v3/entry/github/yogigyle/yogigyle.github.io/master
+staticman_url: https://api.staticman.net/v3/entry/github/yogigyle/yogigyle.github.io/master/comments
 # enableComments: true
