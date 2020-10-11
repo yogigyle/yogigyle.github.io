@@ -20,76 +20,17 @@
 		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
 		{{ content }}
 
-		<!-- Comments -->
-		{% if site.data.comments[page.slug] %}
-		<h3>
-		{% if site.data.comments[page.slug].size > 1 %}
-		{{ site.data.comments[page.slug] | size }}
+	<!-- Comments -->
+		{% if page.comments == true %}
+			{% include comments.html %}
 		{% endif %}
-		Comments:
-		</h3>
-		{% assign comments = site.data.comments[page.slug] | sort %}
-		{% for comment in comments %}
-		<label>
-			{% if comment[1].url %}
-			<a href="{{ comment[1].url }}">
-			{% endif %}
-			<strong>{{ comment[1].name }}</strong>
-			{% if comment[1].url %}
-			</a>
-			{% endif %}
-		</label>
-		<em>{{ comment[1].date | date: "%B %d, %Y" }}</em>
-		<p>{{ comment[1].message | markdownify }}</p>
-		{% endfor %}
-		{% endif %}
-
-		<!-- Comments Form -->
-		<hr>
-		<h2>Leave a comment:</h2>
-		<form method="POST" action="{{ site.staticman_url }}">
-		<input name="options[redirect]" type="hidden" value="https://example.com">
-		<input name="options[slug]" type="hidden" value="{{ page.slug }}">
-		<label>Name:</label>
-		<input name="fields[name]" type="text"> <br>
-		<label>Email (optional):</label>
-		<input name="fields[email]" type="email"> <br>
-		<label>Comment:</label>
-		<textarea style="width:100%" name="fields[message]" rows="12"></textarea> <br>
-		<button type="submit">Submit comment</button> <br><br>
-		<small>Comments will appear after moderation.</small>
-		</form>
-		
-		<!-- DISQUS Comments Section Below 
-		{% if page.comments %} 
-		<hr>
-		<div class="inner" id="disqus_thread"></div>
-		<script>
-
-		/**
-		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-		/*
-		var disqus_config = function () {
-		this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-		this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-		};
-		*/
-		(function() { // DON'T EDIT BELOW THIS LINE
-		var d = document, s = d.createElement('script');
-		s.src = 'https://yogigyle.disqus.com/embed.js';
-		s.setAttribute('data-timestamp', +new Date());
-		(d.head || d.body).appendChild(s);
-		})();
-		</script>
-		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-		{% endif %} -->
 	</div>
 </section>
 
+	
 </div>
 
-    {% include footer.html %}
+    {% include footer_minimal.html %}
 
 </body>
 
