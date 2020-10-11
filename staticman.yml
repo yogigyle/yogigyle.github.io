@@ -7,7 +7,7 @@ comments:
   #
   # Names of the fields the form is allowed to submit. If a field that is
   # not here is part of the request, an error will be thrown.
-  allowedFields: ["name", "email", "url", "message"]
+  allowedFields: ["name", "email", "url", "message", "replying_to_uid"]
 
   # (*) REQUIRED
   #
@@ -16,12 +16,12 @@ comments:
   branch: "master"
 
   # Text to use as the commit message or pull request title. Accepts placeholders.
-  commitMessage: "Add Staticman comment"
+  commitMessage: "Comment from {fields.name} on {options.slug}"
 
   # (*) REQUIRED
   #
   # Destination path (filename) for the data files. Accepts placeholders.
-  filename: "comment-{@timestamp}"
+  filename: "entry{@timestamp}"
 
   # The format of the generated data files. Accepted values are "json", "yaml"
   # or "frontmatter"
@@ -43,7 +43,7 @@ comments:
   moderation: false
 
   # Name of the site. Used in notification emails.
-  name: "YogiGyle.com"
+  name: "Home of the Flow"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
@@ -78,6 +78,6 @@ comments:
 
   #reCAPTCHA v2:
   reCaptcha:
-    enabled: false
+    enabled: true
     siteKey: "6LcLGtYZAAAAAMLmWSGriudVk_R7lwkmJI9ztQvV"
     secret: "lkxAl9krCLy4UUcdvMSn3TrBYT8y1xe8uLlb005UbpDcA4uVWGQ1H1PhtLTI32zhLK+U90Pz/AyXkFwAGg1Bc3pmwT+JaEzHBCINECu8mxlUc4gzJato8P2Eyp+XpucygwPLTfUmNAtMJNRrVRYNmEKYkTWz9UXEnMk02vAMkuZiGV3/cetTUy0tDoS+Cg0WN4At9qqjHORYAbGjNObMeAtOnhAXJKQeSr4y1GTmXc3yXN7iddQTx9NII9RPc/R1QeAEYj0yjZ4N4Q8kXKHM+C4FRIYxdcaUmlmil5cmMIvGfZyunrp7n8rHchdp/slDpIQq6/e4fosJZaZd8JTIW2sTxkaG3GqJ1DMay66i2vbd1Vd37K+9s9tFTdjMf1Ra32QUp4fPO/fMHvnTMOdR9vOf6/X9UsoiC+8uNlsyj7A3dhTPKp8SzQVyDKniyRfW2u153aIqNlNFHqUvw+jShSfRsCGKDhFQQE+Bts63NArQ7SnIxin9nDFMwAtF+AgSi1eeWLSOysvzfTcl+oVEcaqCSaIVF2+/E5nmSiigHqNyeoJ+IOqZDiktqJs+HJBeC2mYFmKAK/9+RBKu0UBsv7/z+CV6c6ZEoOmz2+3GCtAyunXMT7JXmVHwavnm4ZRolh2s4rqHBuwMHaR5ahjr91QnLurtRf/OB82Ffq1YLKI="

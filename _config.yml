@@ -36,7 +36,7 @@ sass:
   style: compressed
 
 #Staticman v2 comments
-staticmanUrl: https://yogigyle-staticman.herokuapp.com/v2/entry/yogigyle/yogigyle.github.io/master/comments
+staticman_url: https://yogigyle-staticman.herokuapp.com/v2/entry/yogigyle/yogigyle.github.io/master/comments
 
 # Staticman v3 comments
 # staticman_url: https://dev.staticman.net/v3/entry/github/yogigyle/yogigyle.github.io/master/comments
@@ -44,6 +44,5 @@ staticmanUrl: https://yogigyle-staticman.herokuapp.com/v2/entry/yogigyle/yogigyl
 
 #reCAPTCHA v2:
 reCaptcha:
-  enabled: false
   siteKey: "6LcLGtYZAAAAAMLmWSGriudVk_R7lwkmJI9ztQvV"
   secret: "lkxAl9krCLy4UUcdvMSn3TrBYT8y1xe8uLlb005UbpDcA4uVWGQ1H1PhtLTI32zhLK+U90Pz/AyXkFwAGg1Bc3pmwT+JaEzHBCINECu8mxlUc4gzJato8P2Eyp+XpucygwPLTfUmNAtMJNRrVRYNmEKYkTWz9UXEnMk02vAMkuZiGV3/cetTUy0tDoS+Cg0WN4At9qqjHORYAbGjNObMeAtOnhAXJKQeSr4y1GTmXc3yXN7iddQTx9NII9RPc/R1QeAEYj0yjZ4N4Q8kXKHM+C4FRIYxdcaUmlmil5cmMIvGfZyunrp7n8rHchdp/slDpIQq6/e4fosJZaZd8JTIW2sTxkaG3GqJ1DMay66i2vbd1Vd37K+9s9tFTdjMf1Ra32QUp4fPO/fMHvnTMOdR9vOf6/X9UsoiC+8uNlsyj7A3dhTPKp8SzQVyDKniyRfW2u153aIqNlNFHqUvw+jShSfRsCGKDhFQQE+Bts63NArQ7SnIxin9nDFMwAtF+AgSi1eeWLSOysvzfTcl+oVEcaqCSaIVF2+/E5nmSiigHqNyeoJ+IOqZDiktqJs+HJBeC2mYFmKAK/9+RBKu0UBsv7/z+CV6c6ZEoOmz2+3GCtAyunXMT7JXmVHwavnm4ZRolh2s4rqHBuwMHaR5ahjr91QnLurtRf/OB82Ffq1YLKI="
