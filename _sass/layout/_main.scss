@@ -11,7 +11,6 @@
 
 		> * {
 			border-top: solid 1px _palette(border);
-
 			&:first-child {
 				border-top: 0;
 			}
@@ -21,6 +20,7 @@
 
 		&.alt {
 			background-color: transparent;
-			border-bottom: solid 1px _palette(border);
+			border-top: solid 1px _palette(border); // [Aviram] this was originally not here in Forty, added to fix top borders not showing on Alt mains!
+			//border-bottom: solid 1px _palette(border); // [Aviram] disabled this to avoid double borders!
 		}
 	}

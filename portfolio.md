@@ -19,9 +19,6 @@ nav-menu: true
 	</div>
 </section> -->
 
-<!-- Main -->
-<div id="main" class="alt">
-
 <!-- One -->
 <section id="one">
 	<div class="inner">

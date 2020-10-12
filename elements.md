@@ -8,7 +8,7 @@ author: null
 ---
 
 <!-- Main -->
-<div id="main">
+<div id="main" class="alt">
 
 <!-- One -->
 <section id="one">
@@ -16,10 +16,13 @@ author: null
 		<!-- <header class="major">
 			<h2>Welcome to the Inner Workings</h2> 
 		</header> -->
-		<p><b>Welcome to the Inner Workings...</b><br>
+		<p><strong>Welcome to the Inner Workings!</strong><br>
 		Below are my thoughts and observations – all insights that help me connect to my spirit and body, mother nature, and of course, you.  Please share your feedback – thank you for allowing me to enter your life, and look forward to having you in mine.</p>
 	</div>
 </section>
+
+<!-- Main -->
+<div id="main" class="alt">
 
 <!-- Two -->
 <section id="two" class="spotlights2">
