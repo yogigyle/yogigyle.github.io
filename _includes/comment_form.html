@@ -6,35 +6,36 @@
   <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
   <input type="hidden" name="options[reCaptcha][secret]"  value="{{ site.reCaptcha.secret }}">
 
-  <div class="textfield">
-    <label for="comment-form-message"><h2>Add Comment<small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;color:darkgray;font-size:60%">&ensp;(Cancel reply)</a></small></h2>
-      <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment (markdown accepted)" required rows="4"></textarea>
     </label>
-  </div>
-
-    <div class="textfield narrowfield">
-      <label for="comment-form-name">Name
-        <input class="textfield__input" name="fields[name]" type="text" id="comment-form-name" placeholder="Your name (required)" required/>
+  <section>
+    <div class="field">
+      <label for="message"><h2>Add Comment<small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;color:darkgray;font-size:60%">&ensp;(Cancel reply)</a></small></h2>
+        <textarea class="text" name="fields[message]" type="text" id="message" placeholder="Your comment (markdown accepted)" required rows="4"></textarea>
       </label>
     </div>
-
-    <div class="textfield narrowfield">
-      <label for="comment-form-email">Email
-        <input class="textfield__input" name="fields[email]" type="email" id="comment-form-email" placeholder="Your email (optional)"/>
-      </label>
+  
+    <div class="field half first">
+      <label for="name">Name</label>
+      <input class="text" name="fields[name]" type="text" id="name" placeholder="Your name (required)" required/>
     </div>
 
-    <div class="textfield narrowfield hp">
-      <label for="hp">
-        <input class="textfield__input" name="fields[hp]" id="hp" type="text" placeholder="Leave blank">
-      </label>
+    <div class="field half">
+      <label for="email">Email</label>
+      <input class="text" name="fields[email]" type="email" id="email" placeholder="Your email (optional)"/>
     </div>
 
-    <div id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
+    <div class="field hp">
+      <label for="hp"></label>
+      <input class="text" name="fields[hp]" id="hp" type="text" placeholder="Leave blank">
+    </div>
 
-    <button class="button" id="comment-form-submit">
-      Submit
-    </button>
+    <ul class="actions">
+      <li><div id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div></li>
+      <li><p>&emsp;</p></li> <!-- [Aviram] Space to separate the reCAPTCHA and the buttons -->
+      <li><button class="button special" id="comment-form-submit">Submit</button></li>
+      <li><input type="reset" value="Clear" /></li>
+    </u1>
+  </section>
 
 </form>
 
