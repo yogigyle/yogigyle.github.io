@@ -91,12 +91,13 @@ textarea {
     padding: 0px 0px 14px 0px;
 }
 .comment__author {
-    //color: $grey-color;
-    font-weight: bold;
+    /* margin-top: -80px; /* [Aviram] added to solve the static banner hiding the permalink locations! */
+    /* padding-top: 80px; /* [Aviram] added to solve the static banner hiding the permalink locations! [UPDATE]: CAUSES ISSUE WITH REPLY BUTTON! */
+    color: _palette(highlight);
     font-size: 120%
 }
 .comment__date {
-    //font-size: $small-font-size;
+    color: _palette(fg-light);
     font-weight: normal;
     font-size: 80%;
 }
@@ -105,7 +106,7 @@ textarea {
 }
 .comment__meta {
     text-align: left;
-    //color: $grey-color;
+    color: _palette(fg-light);
     font-size: 50%;
 }
 .comments__existing {
@@ -118,9 +119,10 @@ textarea {
 }
 .comment.child {
     margin-left: 3em;
+    opacity: 90%;
 }
 .comment__reply-link {
-    //color: $grey-color;
+    color: _palette(fg-light);
     font-size: 180%;
     cursor: pointer;
 }
@@ -156,14 +158,14 @@ textarea {
 .modal { /* [Aviram] This is the actual Modal message box */
     display: none;
     position: fixed;
-    max-width: 500px;
+    max-width: 750px;
     width: 90%; /* was 330px */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     min-height: 0;
     z-index: 9999;
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,.25); /* box-shadow: 0 2px 2px 2px rgba(0,0,0,.25); */
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,.25); /* box-shadow: 0 2px 2px 2px rgba(0,0,0,.25); */
     padding: 1em; /* Was 16px */
     border-radius: 2px; /* Was 5px */
     background: _palette(bg-alt); /* was white, actual color of the Modal window */
