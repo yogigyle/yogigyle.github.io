@@ -1,7 +1,7 @@
 <section class="comments" id="comment-section">
   {% if site.data.comments[page.slug] %}
   <!-- Existing comments -->
-  <div>
+  <div class="comments__existing">
     <h1>Comments</h1>
     {% assign comments = site.data.comments[page.slug] | where_exp: "item", "item.replying_to_uid == ''" %}
     {% assign comments_by_date = comments | sort: 'date' | reverse %}
