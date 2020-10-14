@@ -2,18 +2,6 @@
 // comment styles from
 // https://github.com/willymcallister/willymcallister.github.io/blob/fbc7f396fbe80186b1abc63e436ec509190c1b3a/assets/main.scss
 
-$base-font-size:    18px !default;
-$comment-font-size: 17px !default;
-$base-font-weight: 5px; // [Aviram] Added to fix errors?
-$base-line-height: 20px; // [Aviram] Added to fix errors?
-$base-font-family: #1E72DC; // [Aviram] Added to fix errors?
-$text-color: #757575; // [Aviram] Added to fix errors?
-$grey-color: #757575; // [Aviram] Added to fix errors?
-$grey-color-light: #757575; // [Aviram] Added to fix errors?
-$background-color: _palette(bg-alt); // [Aviram] Added to fix errors?
-$small-font-size: 10px;
-
-
 //
 // Staticman new comment form
 //
@@ -132,9 +120,20 @@ textarea {
 // Pop-up modal window for Staticman comments
 //
 .show-modal {
-    overflow: hidden;
-    position: relative;
+    overflow: auto;
+    position: relative; // [Aviram] This makes the window jerk as the modal is opened to be relatively closer to the button, but need this to keep background color
+
+    input,
+    textarea,
+    label {
+        pointer-events: none;
+        cursor: not-allowed;
+        filter: alpha(opacity=65);
+        box-shadow: none;
+        opacity: 0.65;
+    }
 }
+
 .show-modal:before { /* This is probably the background! */
     position: absolute;
     content: '';
@@ -144,11 +143,15 @@ textarea {
     height: 100%;
     z-index: 999;
     background-color: _palette(modal-bg); /* rgba(255, 255, 255, 0.85); */
+    animation: fadein 0.25s;
 }
+
 .show-modal .modal {
     display: block;
 }
-.mdl-card { /* [Aviram] What is this one?? */
+
+// [AVIRAM] Disabling mdl-card to check if indeed OBSOLETE on 14-10-2020
+.mdl-card {
     min-height: 200px;
     overflow: hidden;
     z-index: 1;
@@ -156,6 +159,7 @@ textarea {
     background: _palette(modal-bg);
     box-sizing: border-box;
 }
+
 .modal { /* [Aviram] This is the actual Modal message box */
     display: none;
     position: fixed;
@@ -170,10 +174,14 @@ textarea {
     padding: 1em; /* Was 16px */
     border-radius: 2px; /* Was 5px */
     background: _palette(bg-alt); /* was white, actual color of the Modal window */
+    animation: fadein .25s;
 }
-.mdl-shadow--16dp {
+
+// [AVIRAM] Disabling mdl-shadow--16dp to check if indeed OBSOLETE on 14-10-2020
+/*.mdl-shadow--16dp {
     box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
-}
+} */
+
 .mdl-card__supporting-text {
     overflow: hidden;
     padding: 16px;
@@ -193,5 +201,29 @@ textarea {
         filter: alpha(opacity=65);
         box-shadow: none;
         opacity: 0.65;
+
+        @include vendor('transition', (
+			'transform #{_duration(menu)} ease',
+			'opacity #{_duration(menu)} ease',
+			'visibility #{_duration(menu)}'
+		));
     } 
 } 
+
+@keyframes fadein {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
+}
+
+@keyframes fadeout {
+	from {
+		opacity:1;
+	}
+	to {
+		opacity:0;
+	}
+}
