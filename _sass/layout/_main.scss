@@ -8,7 +8,8 @@
 
 	#main {
 		background-color: _palette(bg-alt);
-
+		border-top: solid 1px _palette(border); /* [AVIRAM 17-OCT-20] Added to create an <hr> border on top of regular main Items */
+		
 		> * {
 			border-top: solid 1px _palette(border);
 			&:first-child {
