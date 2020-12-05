@@ -67,7 +67,7 @@ author: null
 				<header class="major">
 					<h3>Vayus</h3>
 				</header>
-				<p>In yogi tradition, our internal energy & life force (Prana) can be categorized into five different Vayus, or patterns of movement of the energy as it travels through our body. Each Vayu has unique effects on the body & mind, and understanding how they work can lead to a deeper practice and greater sense of well-being.</p>
+				<p>In yogi tradition, our internal energy & life force (Prana) can be categorized into five different patterns of movement as it travels through our body – these are the Vayus. Each Vayu has unique effects on mind & body, and exploring these different patterns of energetic movement can lead to a deeper practice and greater sense of well-being.</p>
 				<ul class="actions">
 					<li><a href="{% post_url 2020-07-06-vayus %}" class="button">Continue Reading</a></li>
 				</ul>
