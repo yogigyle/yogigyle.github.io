@@ -26,6 +26,8 @@ nav-menu: true
 
 <p>Ultimately, I decided to literally take my life in a different direction and move to Tel Aviv after graduating. This choice was a deeply intuitive one, and probably the first time in my life where I acted based on pure gut instinct that doing so would work out in my favor. This kind of self-trust and intuition is an integral part of what yoga means to me, and is probably the most important benefit that I’ve experienced.</p>
 
+<p>As my own personal practice of yoga evolves, I find myself feeling stronger in mind, body, and spirit, all working together in harmony; a refreshing release from the external unpredictability and volatility of what one typically experiences in life.</p>
+
 <p>I am humbled to have studied and received my RYT Certification at Yoga Vidya Mandiram in Rishikesh, India, an experience which opened my eyes to a multitude of beautiful ideas and varied philosophies behind the physical practice itself.</p>
 
 <span class="image right"><img src="{% link assets/images/about3.jpg %}" alt="" /></span>
