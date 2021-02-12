@@ -101,7 +101,7 @@ nav-menu: true
 
 <section id="three">
 	<div class="inner">
-		<p style="text-align:center"><a href="https://www.facebook.com/yogigyle" class="icon alt fa-facebook"><span class="label">Facebook</span></a>&emsp;To read more of what others have to say, <a href="https://www.facebook.com/yogigyle">please visit my facebook page!</a>
+		<p style="text-align:center"><a href="https://www.facebook.com/yogigyle/reviews/" class="icon alt fa-facebook"><span class="label">Facebook</span></a>&emsp;To read more of what others have to say, <a href="https://www.facebook.com/yogigyle/reviews/">please visit my facebook page!</a>
 		</p>
 		<!-- <ul class="actions">
 			<li><a href="generic.html" class="button">Learn more</a></li>
