@@ -11,7 +11,7 @@ city:
 state: 
 zip_code: 
 country: 
-phone: (+972) 058-786-8422
+phone: (972) 058-786-8422
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
