@@ -2,7 +2,7 @@
 layout: page
 title: About Gyle
 description: A journey of the self, through the self, to the self
-image: assets/images/main_about.jpg
+image: assets/images/about.jpg
 nav-menu: true
 ---
 <!-- Main -->
@@ -14,12 +14,12 @@ nav-menu: true
 		<header class="major">
 			<h1>Avigyle's Story</h1>
 		</header>
-		<span class="image fit"><img src="{% link assets/images/about_5927_2_BW.jpg %}" alt="" /></span>
+		<span class="image fit"><img src="{% link assets/images/about1.jpg %}" alt="" /></span>
 		<hr />
 
 
 <!-- Content Option 2 -->
-<span class="image left"><img src="{% link assets/images/about_1160.jpg %}" alt="" /></span>
+<span class="image left"><img src="{% link assets/images/about2.jpg %}" alt="" /></span>
 <p>I’m Avigyle, raised in NYC and living in Tel Aviv since 2017.</p>
 
 <p>My love affair with yoga began while I was in my final year of University - I was experiencing regular anxiety from a combination of feeling disconnected from myself, craving a creative outlet, and my uncertainty as to what my next “life move” was. I was immediately drawn to the technical aspects of asana— the physical postures. I was excited by the challenge of teaching my body something new – and my motivation grew stronger as I noticed the benefits; flexibility, strength, and a stillness and connection to my body that I had never felt before. <b>I began to notice the deep sense of inner-calm that I experienced after every practice, and as yoga became more of a habit, I observed that sense of calm influencing my actions and reactions in other areas of life.</b></p>
@@ -30,7 +30,7 @@ nav-menu: true
 
 <p>I am humbled to have studied and received my RYT Certification at Yoga Vidya Mandiram in Rishikesh, India, an experience which opened my eyes to a multitude of beautiful ideas and varied philosophies behind the physical practice itself.</p>
 
-<span class="image right"><img src="{% link assets/images/about_1081.jpg %}" alt="" /></span>
+<span class="image right"><img src="{% link assets/images/about3.jpg %}" alt="" /></span>
 <p>My philosophy is that a desire to love yourself and treat yourself kindly is the only prerequisite for beginning a yoga practice. I currently teach private & small group lessons with sequences that I mold to each individual’s specific goals, allowing everyone to recognize and develop their unique potential. Witnessing this growth and the positive impact it has on my students is one of the most rewarding feelings I experience, and why I continue to embrace opportunities to teach.</p>
 
 <p><b>This website is meant to encourage self-love and exploration on and off the mat, while bringing forth a love and respect for the art of yoga and all that it encompasses. I’ll be sharing original thoughts on yoga philosophy and how yoga has influenced my life, along with favorite poses and techniques that I have used successfully to increase my own strength & flexibility. I would also love to hear and share your experiences, along with suggestions of any additional content you would like me to share.</b></p>
