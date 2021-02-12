@@ -53,7 +53,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a class="image">
-			<img src="{% link assets/images/testimonials_miriam.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/testimonials_miriam.JPG %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
