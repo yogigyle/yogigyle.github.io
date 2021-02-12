@@ -2,7 +2,7 @@
 title: Portfolio
 layout: landing
 description: Moments of stillness captured
-image: assets/images/portfolio.JPG
+image: assets/images/main_portfolio.JPG
 nav-menu: true
 ---
 

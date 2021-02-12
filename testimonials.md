@@ -28,7 +28,7 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<p><i>"After years of not practicing yoga, I started private classes with Avi, basically starting from scratch but wanting to recover my strength and flexibility through the practice. Avi understood exactly what I needed and has organized the most outstanding classes. Not only do I highly recommend her for any yoga level, but I look forward to continuing my practice with her for the foreseeable future!"</i></p>
-				<p style="text-align:left"><b>Tati Delgado</b>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/tatidelgador/" class="icon fa-instagram"><span class="label">Instagram</span></a>
+				<p style="text-align:left"><b>Tati Delgado</b>&emsp;<a href="https://www.instagram.com/tatidelgador/" class="icon fa-instagram"><span class="label">Instagram</span></a>
 				<br /><i>Tel Aviv, Israel</i></p>
 				<!-- <ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
@@ -43,7 +43,7 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<p><i>"I have been practicing with Avi for two months already, and she has been an amazing yoga instructor. I suffer from plantar fasciitis which affects my back as well, and Avi has taken that into consideration for the structure of the class, as well as making sure my postures are aligned accordingly."</i></p>
-				<p style="text-align:left"><b>Oswaldo Nobile</b>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/oswaldmachine/" class="icon fa-instagram"><span class="label">Instagram</span></a>
+				<p style="text-align:left"><b>Oswaldo Nobile</b>&emsp;<a href="https://www.instagram.com/oswaldmachine/" class="icon fa-instagram"><span class="label">Instagram</span></a>
 				<br /><i>Tel Aviv, Israel</i></p>
 				<!-- <ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
@@ -73,7 +73,7 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<p><i>"I had such a blast with this amazing soul in Rishikesh. It’s always yoga on and off the may for Avi. You can never NOT see this amazing yogi playing. She will stretch and play around poses as much as she can. I adore her and will 100% make sure to attend her class when I get a chance!"</i></p>
-				<p style="text-align:left"><b>Noelene Cortez</b>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/noellecrtz/" class="icon fa-instagram"><span class="label">Instagram</span></a>
+				<p style="text-align:left"><b>Noelene Cortez</b>&emsp;<a href="https://www.instagram.com/noellecrtz/" class="icon fa-instagram"><span class="label">Instagram</span></a>
 				<br /><i>Manila, Philippines</i></p>
 				<!-- <ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
@@ -98,17 +98,15 @@ nav-menu: true
 </section>
 
 <!-- Three -->
-<!--
+
 <section id="three">
 	<div class="inner">
-		<header class="major">
-			<h2>Massa libero</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-				 <ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul> 
+		<p style="text-align:center"><a href="https://www.facebook.com/yogigyle" class="icon alt fa-facebook"><span class="label">Facebook</span></a>&emsp;To read more of what others have to say, <a href="https://www.facebook.com/yogigyle">please visit my facebook page!</a>
+		</p>
+		<!-- <ul class="actions">
+			<li><a href="generic.html" class="button">Learn more</a></li>
+		</ul> -->
 	</div>
-</section> -->
+</section>
 
 </div>
