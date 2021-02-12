@@ -2,7 +2,7 @@
 layout: landing
 title: Elements
 description: Mind, Body, and Spirit; How yoga translates on &amp; off the mat
-image: assets/images/elements.jpg
+image: assets/images/main_elements.jpg
 nav-menu: true
 author: null
 ---
