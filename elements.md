@@ -2,7 +2,7 @@
 layout: landing
 title: Elements
 description: Mind, Body, and Spirit; How yoga translates on &amp; off the mat
-image: assets/images/elements.jpg
+image: assets/images/main_elements.JPG
 nav-menu: true
 author: null
 ---
@@ -28,7 +28,7 @@ author: null
 <section id="two" class="spotlights2">
 	<section>
 		<a href="{% post_url 2020-07-11-chakras2 %}" class="image">
-			<img src="{% link assets/images/chakras_anahata.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/chakras_anahata.JPG %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -44,7 +44,7 @@ author: null
 	</section>
 	<section>
 		<a href="{% post_url 2020-07-09-chakras1 %}" class="image">
-			<img src="{% link assets/images/chakras_swadhis.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/chakras_swadhis.JPG %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -60,7 +60,7 @@ author: null
 	</section>
 	<section>
 		<a href="{% post_url 2020-07-06-vayus %}" class="image">
-			<img src="{% link assets/images/vayus_udana.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/vayus_udana.JPG %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">

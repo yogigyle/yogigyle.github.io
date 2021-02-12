@@ -2,7 +2,7 @@
 title: Testimonials
 layout: landing
 description: Quoting the yogis
-image: assets/images/testimonials.jpg
+image: assets/images/main_testimonials.jpg
 nav-menu: true
 ---
 
@@ -23,7 +23,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="https://www.instagram.com/tatidelgador/" class="image">
-			<img src="{% link assets/images/tati.jpeg %}" alt="" data-position="25% 25%" />
+			<img src="{% link assets/images/testimonials_tati.jpeg %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -38,7 +38,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="https://www.instagram.com/oswaldmachine/" class="image">
-			<img src="{% link assets/images/oswaldo.jpeg %}" alt="" data-position="25% 25%" />
+			<img src="{% link assets/images/testimonials_oswaldo.jpeg %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -53,7 +53,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a class="image">
-			<img src="{% link assets/images/miriam.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/testimonials_miriam.JPG %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -68,7 +68,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="https://www.instagram.com/noellecrtz/" class="image">
-			<img src="{% link assets/images/noelle.jpg %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/testimonials_noelle.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -83,7 +83,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a class="image">
-			<img src="{% link assets/images/vladimir.jpg %}" alt="" data-position="25% 25%" />
+			<img src="{% link assets/images/testimonials_vladimir.jpg %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
