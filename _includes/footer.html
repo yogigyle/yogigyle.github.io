@@ -5,9 +5,8 @@
 <section id="contact">
 	<div class="inner">
 		<section>
-			<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 			<form action="https://formspree.io/{{ site.email }}" method="POST">
-				<!-- <input type="hidden" name="_next" value="//yogigyle.com" />  // This is for a paid version of Formspree, to have custom redirect site -->
+				<!-- <input type="hidden" name="_next" value="//yogigyle.com" /> -->
 				<div class="field half first">
 					<label for="name">Name</label>
 					<input type="text" name="name" id="name" />
@@ -21,7 +20,6 @@
 					<textarea name="message" id="message" rows="6"></textarea>
 				</div>
 				<ul class="actions">
-					<!-- <li><div id="reCaptcha" class="g-recaptcha" data-theme="dark" data-sitekey="{{ site.reCaptcha.siteKey }}"></div></li> -->
 					<li><input type="submit" value="Send Message" class="special" /></li>
 					<li><input type="reset" value="Clear" /></li>
 				</ul>

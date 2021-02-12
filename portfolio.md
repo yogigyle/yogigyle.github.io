@@ -2,7 +2,7 @@
 title: Portfolio
 layout: landing
 description: Moments of stillness captured
-image: assets/images/portfolio.JPG
+image: assets/images/portfolio.jpg
 nav-menu: true
 ---
 
@@ -25,21 +25,21 @@ nav-menu: true
 	
 <!-- Two -->
 <section id="two">
-	<!-- <span class="image fit"><img src="{% link assets/images/main_banner.JPG %}" alt="" /></span> -->
+	<!-- <span class="image fit"><img src="{% link assets/images/banner.jpg %}" alt="" /></span> -->
 	<div class="box alt">
 		<div class="row 100% uniform">
 			<!-- Start ROW 1 -->
-			<div class="4u"><span class="image fit"><img src="{% link assets/images/portfolio_6186.JPG %}" alt="" /></span></div>
-			<div class="4u"><span class="image fit"><img src="{% link assets/images/portfolio_6238_1.JPG %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit"><img src="{% link assets/images/portfolio_6186.jpg %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit"><img src="{% link assets/images/portfolio_6238_1.jpg %}" alt="" /></span></div>
 			<div class="4u$"><span class="image fit"><img src="{% link assets/images/portfolio_6226.jpg %}" alt="" /></span></div>
 			<!-- Break ROW 2 -->
 			<div class="4u"><span class="image fit"><img src="{% link assets/images/portfolio_1180.jpg %}" alt="" /></span></div>
-			<div class="4u"><span class="image fit"><img src="{% link assets/images/about_1160.jpg %}" alt="" /></span></div>
-			<div class="4u$"><span class="image fit"><img src="{% link assets/images/portfolio_1156.JPG %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit"><img src="{% link assets/images/about2.jpg %}" alt="" /></span></div>
+			<div class="4u$"><span class="image fit"><img src="{% link assets/images/portfolio_1156.jpg %}" alt="" /></span></div>
 			<!-- Break ROW 3 -->
-			<div class="4u"><span class="image fit"><img src="{% link assets/images/chakras_mudlahara.JPG %}" alt="" /></span></div>
-			<div class="4u"><span class="image fit"><img src="{% link assets/images/portfolio_6200.JPG %}" alt="" /></span></div>
-			<div class="4u$"><span class="image fit"><img src="{% link assets/images/chakras_swadhis.JPG %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit"><img src="{% link assets/images/chakras_mudlahara.jpg %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit"><img src="{% link assets/images/portfolio_6200.jpg %}" alt="" /></span></div>
+			<div class="4u$"><span class="image fit"><img src="{% link assets/images/chakras_swadhis.jpg %}" alt="" /></span></div>
 		</div>
 	</div>
 </section>
