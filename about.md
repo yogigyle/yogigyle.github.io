@@ -2,7 +2,7 @@
 layout: page
 title: About Gyle
 description: A journey of the self, through the self, to the self
-image: assets/images/main_about.JPG
+image: assets/images/main_about.jpg
 nav-menu: true
 ---
 <!-- Main -->
@@ -14,7 +14,7 @@ nav-menu: true
 		<header class="major">
 			<h1>Avigyle's Story</h1>
 		</header>
-		<span class="image fit"><img src="{% link assets/images/about_5927_2_BW.JPG %}" alt="" /></span>
+		<span class="image fit"><img src="{% link assets/images/about_5927_2_BW.jpg %}" alt="" /></span>
 		<hr />
 
 
