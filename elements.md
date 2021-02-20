@@ -26,8 +26,26 @@ author: null
 
 <!-- Two -->
 <section id="two" class="spotlights2">
+	<!-- Expectations -->
 	<section>
-		<a href="{% post_url 2020-07-11-chakras2 %}" class="image">
+		<a href="{% post_url 2021-02-20-expectations %}" class="image">
+			<img src="{% link assets/images/expectations_1150_banner.JPG %}" alt="" data-position="top center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Ditching Expectations</h3>
+				</header>
+				<p>Here is my take on how expectations of oneself in yoga serve as a distraction from the most beneficial aspect of learning new poses –  the discipline of patience, learning how to listen to your breath, and cultivating self-awareness.</p>
+				<ul class="actions">
+					<li><a href="{% post_url 2021-02-20-expectations %}" class="button">Continue Reading</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- Charkas, Part 2 -->
+	<section>
+		<a href="{% post_url 2021-02-13-chakras2 %}" class="image">
 			<img src="{% link assets/images/chakras_anahata.JPG %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
@@ -37,13 +55,14 @@ author: null
 				</header>
 				<p>This post focuses on the last 4 chakras which are more spiritual in nature, and govern love, self-expression, intuition, and higher consciousness. Read on for how to recognize possible imbalances, and how you can best tap into those chakras, exploring and learning more about yourself on the way.</p>
 				<ul class="actions">
-					<li><a href="{% post_url 2020-07-11-chakras2 %}" class="button">Continue Reading</a></li>
+					<li><a href="{% post_url 2021-02-13-chakras2 %}" class="button">Continue Reading</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
+	<!-- Charkas, Part 1 -->
 	<section>
-		<a href="{% post_url 2020-07-09-chakras1 %}" class="image">
+		<a href="{% post_url 2021-02-06-chakras1 %}" class="image">
 			<img src="{% link assets/images/chakras_swadhis.JPG %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
@@ -53,13 +72,14 @@ author: null
 				</header>
 				<p>Aligning the chakras is a powerful way of tuning it to ourselves, and to the world. Here’s a beginner’s guide to the main theories surrounding the first 3 chakras- as well as symptoms of imbalances within them, and steps you can take to align those imbalances.</p>
 				<ul class="actions">
-					<li><a href="{% post_url 2020-07-09-chakras1 %}" class="button">Continue Reading</a></li>
+					<li><a href="{% post_url 2021-02-06-chakras1 %}" class="button">Continue Reading</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
-	<section>
-		<a href="{% post_url 2020-07-06-vayus %}" class="image">
+	<!-- Vayus -->
+	<section> 
+		<a href="{% post_url 2021-01-30-vayus %}" class="image">
 			<img src="{% link assets/images/vayus_udana.JPG %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
@@ -69,7 +89,7 @@ author: null
 				</header>
 				<p>In yogi tradition, our internal energy & life force (Prana) can be categorized into five different patterns of movement as it travels through our body – these are the Vayus. Each Vayu has unique effects on mind & body, and exploring these different patterns of energetic movement can lead to a deeper practice and greater sense of well-being.</p>
 				<ul class="actions">
-					<li><a href="{% post_url 2020-07-06-vayus %}" class="button">Continue Reading</a></li>
+					<li><a href="{% post_url 2021-01-30-vayus %}" class="button">Continue Reading</a></li>
 				</ul>
 			</div>
 		</div>
