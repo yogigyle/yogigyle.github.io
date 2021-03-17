@@ -12,7 +12,7 @@ image:
 There’s a commonly held belief that flexibility is a prerequisite of practicing yoga, when in fact the opposite is true; <b>flexibility is just one of the outcomes of a practice that one loves enough to keep coming back to it. You start where you are, and the practice meets you there.</b> Here are the 3 most effective tips I’ve learned over the years for increasing flexibility in a healthy way that yields real, lasting results:
 <hr/>
 <p>
-<b>CONSISTANTANCY:</b><br/>
+<b>CONSISTENCY:</b><br/>
 The most useful tip I can give you about flexibility is to stay consistent. Improvements come slowly and often are only noticeable after weeks (or even months) - not days, so success depends entirely on patience and dedication. Tracking your progress can help boost motivation - I strongly suggest taking before and after pictures, as well as practicing a few of the same stretches every day (even five minutes before bed is better than nothing). Use the postures as indicators of how your muscles are feeling that day, and as you begin to pay closer attention, even small amounts of progress will become noticeable.
 <p>
 <b>RELAXATION:</b><br/>
