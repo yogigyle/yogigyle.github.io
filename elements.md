@@ -26,6 +26,23 @@ author: null
 
 <!-- Two -->
 <section id="two" class="spotlights2">
+	<!-- Flexibility -->
+	<section>
+		<a href="{% post_url 2021-03-15-flexibility %}" class="image">
+			<img src="{% link assets/images/portfolio_1156.JPG %}" alt="" data-position="top center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>The Formula of Flexibility</h3>
+				</header>
+				<p>Flexibility is not a prerequisite of practicing yoga! Here are the 3 most effective tips I’ve picked up over the years for improving flexibility in a healthy way that yields real, lasting results.</p>
+				<ul class="actions">
+					<li><a href="{% post_url 2021-03-15-flexibility %}" class="button">Continue Reading</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 	<!-- Expectations -->
 	<section>
 		<a href="{% post_url 2021-02-20-expectations %}" class="image">

@@ -22,6 +22,15 @@ img {
 			}
 		}
 
+		&.left_50,					// [Aviram 2021-03-17 added from here]
+		&.right_50 {
+			max-width: 50%;
+
+			img {
+				width: 100%;
+			}					// [Aviram 2021-03-17 added to here]
+		}
+
 		&.left {
 			float: left;
 			margin: 0 1.5em 1.25em 0;
@@ -33,6 +42,18 @@ img {
 			margin: 0 0 1.25em 1.5em;
 			top: 0.25em;
 		}
+
+		&.left_50 {   				// [Aviram 2021-03-17 added from here]
+			float: left;
+			margin: 0 1.5em 1.25em 0;
+			top: 0.25em;
+		}
+
+		&.right_50 {
+			float: right;
+			margin: 0 0 1.25em 1.5em;
+			top: 0.25em;
+		}   						// [Aviram 2021-03-17 added to here]
 
 		&.fit {
 			display: block;
