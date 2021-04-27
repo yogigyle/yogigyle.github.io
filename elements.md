@@ -53,7 +53,7 @@ author: null
 				<header class="major">
 					<h3>Ditching Expectations</h3>
 				</header>
-				<p>Here is my take on how expectations of oneself in yoga serve as a distraction from the most beneficial aspect of learning new poses –  the discipline of patience, learning how to listen to your breath, and cultivating self-awareness.</p>
+				<p>Here is my take on how expectations of oneself in yoga serve as a distraction from the most beneficial aspects of learning new poses –  the discipline of patience, learning how to listen to your breath, and cultivating self-awareness.</p>
 				<ul class="actions">
 					<li><a href="{% post_url 2021-02-20-expectations %}" class="button">Continue Reading</a></li>
 				</ul>
@@ -87,7 +87,7 @@ author: null
 				<header class="major">
 					<h3>Chakras, Part I</h3>
 				</header>
-				<p>Aligning the chakras is a powerful way of tuning it to ourselves, and to the world. Here’s a beginner’s guide to the main theories surrounding the first 3 chakras- as well as symptoms of imbalances within them, and steps you can take to align those imbalances.</p>
+				<p>Aligning the chakras is a powerful way of tuning it to ourselves, and to the world. Here’s a beginner’s guide to the main theories surrounding the first 3 chakras - as well as symptoms of imbalances within them, and steps you can take to align those imbalances.</p>
 				<ul class="actions">
 					<li><a href="{% post_url 2021-02-06-chakras1 %}" class="button">Continue Reading</a></li>
 				</ul>
