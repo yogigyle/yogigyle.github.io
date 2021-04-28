@@ -26,6 +26,23 @@ author: null
 
 <!-- Two -->
 <section id="two" class="spotlights2">
+	<!-- Beginners -->
+	<section>
+		<a href="{% post_url 2021-04-28-beginners %}" class="image">
+			<img src="{% link assets/images/beginners_2356_banner.JPG %}" alt="" data-position="top center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>6 Tips for Beginners</h3>
+				</header>
+				<p>To all the yogis out there who feel unsure of how to begin, or are just looking for some tips on how to practice mindfully – here are my top 6 tips for getting into the mindset for a healthy, safe, and rewarding practice.</p>
+				<ul class="actions">
+					<li><a href="{% post_url 2021-04-28-beginners %}" class="button">Continue Reading</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 	<!-- Flexibility -->
 	<section>
 		<a href="{% post_url 2021-03-15-flexibility %}" class="image">
