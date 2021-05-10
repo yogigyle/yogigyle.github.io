@@ -4,12 +4,8 @@
 
 	/// Breakpoints.
 	/// @var {list}
-	/* $breakpoints: () !global; */  // [AVIRAM] REMOVED ACCORDING TO CONSOLE MESSAGE: 
-	//									DEPRECATION WARNING on line 7 of C:/Google Drive - Avirams91/GitHub/yogigyle.github.io_OFFLINE/_sass/libs/_skel.scss:
-	//									!global assignments won't be able to declare new variables in future versions.
-	//									Consider adding `$breakpoints: null` at the top level.
-
 	$breakpoints: null;
+	$breakpoints: () !global;
 
 	/// Vendor prefixes.
 	/// @var {list}
