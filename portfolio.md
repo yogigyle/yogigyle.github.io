@@ -91,13 +91,13 @@ nav-menu: true
 			<img style="display:block;" src="{% link assets/images/portfolio_6226.JPG %}">
 		</div>
 		<!-- Next/previous controls -->
-		<a class="prev" onclick="plusSlides(-1)" style="border-bottom-style: none;">&#10094;</a>
-		<a class="next" onclick="plusSlides(1)" style="border-bottom-style: none;">&#10095;</a>
+		<a class="prevslide" onclick="plusSlides(-1)" style="border-bottom-style: none;">&#10094;</a>
+		<a class="nextslide" onclick="plusSlides(1)" style="border-bottom-style: none;">&#10095;</a>
 		<!-- Caption text 
 		<div class="caption-container">
 			<p id="caption"></p>
 		</div> -->
-		<!-- Thumbnail image controls 
+		<!-- Thumbnail image controls
 		<div class="column">
 			<img class="demo" src="{% link assets/images/portfolio_2430.JPG %}" onclick="currentSlide(1)" alt="Nature">
 		</div>

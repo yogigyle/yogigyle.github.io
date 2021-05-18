@@ -114,8 +114,8 @@
 
 
 /* Next & previous buttons */
-.prev,
-.next {
+.prevslide,
+.nextslide {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -132,14 +132,14 @@
 }
 
 /* Position the "next button" to the right */
-.next {
+.nextslide {
   right: 0;
   border-radius: 5px; //3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
+.prevslide:hover,
+.nextslide:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
