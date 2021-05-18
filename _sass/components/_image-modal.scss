@@ -1,0 +1,181 @@
+///////////////////////
+///// [AVIRAM 2021-05-18] LIGHTBOX STARTS FROM HERE:
+///////////////////////
+
+/* The Modal (background) */
+.slide-modal {
+  @include vendor('transition', (
+    'transform #{_duration(menu)} ease',
+    'opacity #{_duration(menu)} ease',
+    'visibility #{_duration(menu)}'
+  ));
+  //display: block; 
+  position: fixed; /* Stay in place (originall was "fixed"*/
+  z-index: 99999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background: transparentize(_palette(bg), 0.05);
+  opacity: 0; /* Hidden by default */
+  pointer-events: none;
+  visibility: hidden;
+}
+
+/* Added by function bringUpModal() */
+.slide-modal-visible {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+
+  #wrapper { // Doesn't work currently - need to fix!
+    filter: blur(0.5em); 
+    @include vendor('filter', 'blur(0.5em)');
+  }
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999991;
+}
+
+/* The Close Button */
+// [AVIRAM 2021-05-17] Close button design copied from _menu.scss
+.close {
+  @include vendor('transition', 'color #{_duration(transition)} ease-in-out');
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  border: 0;
+  cursor: pointer;
+  display: block;
+  height: 4em;
+  line-height: 4em;
+  overflow: hidden;
+  padding-right: 1.25em;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  text-indent: 8em;
+  top: 0;
+  white-space: nowrap;
+  width: 8em;
+  z-index: 999992;
+
+  &:before, &:after {
+    @include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
+    background-position: center;
+    background-repeat: no-repeat;
+    content: '';
+    display: block;
+    height: 4em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4em;
+  }
+
+  &:before {
+    background-image: svg-url('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 20 20" zoomAndPan="disable"><style>line { stroke: #{_palette(fg-bold)}; stroke-width: 2; }</style><line x1="0" y1="0" x2="20" y2="20" /><line x1="20" y1="0" x2="0" y2="20" /></svg>');
+  }
+
+  &:after {
+    background-image: svg-url('<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 20 20" zoomAndPan="disable"><style>line { stroke: #{_palette(highlight)}; stroke-width: 2; }</style><line x1="0" y1="0" x2="20" y2="20" /><line x1="20" y1="0" x2="0" y2="20" /></svg>');
+    opacity: 0;
+  }
+
+  &:hover, &:active {
+    &:after {
+      opacity: 1;
+    }
+  }
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+  padding: 3em;
+  //object-fit: cover;
+  //background-size: cover;
+  //max-height: 100vh;
+  //max-width: 90%;
+}
+
+.mySlides-visible {
+  display: block;
+  //transition: transform .35s ease, opacity .35s ease, visibility .35s;
+  /*opacity: 1;
+  pointer-events: auto;
+  visibility: visible;*/
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 5px; //0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 5px; //3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+}
+
+/* Caption text 
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}*/
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.hover-img { // [AVIRAM] Was "img.hover-shadow"
+  border-radius: 7px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hover-img:hover {
+  filter: brightness(110%) sepia(25%);
+  //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
