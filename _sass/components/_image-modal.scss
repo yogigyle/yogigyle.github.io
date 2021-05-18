@@ -138,9 +138,11 @@
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prevslide:hover,
-.nextslide:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+@media (hover: hover) { 
+  .prevslide:hover,
+  .nextslide:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }
 
 /* Number text (1/3 etc) */
@@ -149,6 +151,7 @@
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
+  opacity: 0;
 }
 
 /* Caption text 
@@ -178,4 +181,11 @@ img.demo {
 .hover-img:hover {
   filter: brightness(110%) sepia(25%);
   //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
 }
