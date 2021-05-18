@@ -116,7 +116,8 @@ textarea {
     cursor: pointer;
 }
 
-.anchorlink:target {  /* [AVIRAM] Added to solve the static banner hiding the permalink locations - THIS WORKS! */
+// [AVIRAM] Added to solve the static banner hiding the permalink locations - THIS WORKS!
+.anchorlink:target {  
     display: block;
     position: relative;
     margin-top: -65px;
@@ -157,7 +158,7 @@ textarea {
     display: block;
 }
 
-/* [AVIRAM] Disabling mdl-card to check if indeed OBSOLETE on 14-10-2020 */
+// [AVIRAM 2020-10-14] Disabling mdl-card to check if indeed OBSOLETE:
 /* .mdl-card {
     min-height: 200px;
     overflow: hidden;
@@ -176,7 +177,7 @@ textarea {
     left: 50%;
     transform: translate(-50%, -50%);
     min-height: 0;
-    z-index: 9999;
+    z-index: 99999;
     box-shadow: 0 0 0.25em 0 rgba(0,0,0,0.15); /* box-shadow: 0 2px 2px 2px rgba(0,0,0,.25); */
     padding: 1em; /* Was 16px */
     border-radius: 2px; /* Was 5px */
@@ -184,7 +185,7 @@ textarea {
     animation: fadein .25s;
 }
 
-// [AVIRAM] Disabling mdl-shadow--16dp to check if indeed OBSOLETE on 14-10-2020
+// [AVIRAM 2020-10-14] Disabling mdl-shadow--16dp to check if indeed OBSOLETE:
 /*.mdl-shadow--16dp {
     box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
 } */
