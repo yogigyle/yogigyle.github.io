@@ -29,162 +29,17 @@ nav-menu: true
 	<div class="box alt">
 		<div class="row 100% uniform">
 			<!-- Start ROW 1 -->
-			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(1)" src="{% link assets/images/portfolio_2430.JPG %}" alt="" /></span></div>
-			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(2)" src="{% link assets/images/portfolio_2266.JPG %}" alt="" /></span></div>
-			<div class="4u$"><span class="image fit hover-img"><img onclick="openModal();currentSlide(3)" src="{% link assets/images/portfolio_2367.JPG %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit"><img src="{% link assets/images/portfolio_2430.JPG %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit"><img src="{% link assets/images/portfolio_2266.JPG %}" alt="" /></span></div>
+			<div class="4u$"><span class="image fit"><img src="{% link assets/images/portfolio_2367.JPG %}" alt="" /></span></div>
 			<!-- Break ROW 2 -->
-			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(4)" src="{% link assets/images/portfolio_1180.JPG %}" alt="" /></span></div>
-			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(5)" src="{% link assets/images/about_1160.JPG %}" alt="" /></span></div>
-			<div class="4u$"><span class="image fit hover-img"><img onclick="openModal();currentSlide(6)" src="{% link assets/images/portfolio_1156.JPG %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit"><img src="{% link assets/images/portfolio_1180.JPG %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit"><img src="{% link assets/images/about_1160.JPG %}" alt="" /></span></div>
+			<div class="4u$"><span class="image fit"><img src="{% link assets/images/portfolio_1156.JPG %}" alt="" /></span></div>
 			<!-- Break ROW 3 -->
-			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(7)" src="{% link assets/images/portfolio_6186.JPG %}" alt="" /></span></div>
-			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(8)" src="{% link assets/images/portfolio_6200.JPG %}" alt="" /></span></div>
-			<div class="4u$"><span class="image fit hover-img"><img onclick="openModal();currentSlide(9)" src="{% link assets/images/portfolio_6226.JPG %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit"><img src="{% link assets/images/portfolio_6186.JPG %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit"><img src="{% link assets/images/portfolio_6200.JPG %}" alt="" /></span></div>
+			<div class="4u$"><span class="image fit"><img src="{% link assets/images/portfolio_6226.JPG %}" alt="" /></span></div>
 		</div>
 	</div>
 </section>
-
-<!-- The Modal/Lightbox -->
-<div id="slideModal" class="slide-modal">
-	<!-- The Close button -->
-	<span class="close" onclick="closeModal()">&times;</span>
-	<!-- Modal content -->
-	<div class="modal-content">
-		<!-- The slides\images -->
-		<!-- Start ROW 1 -->
-		<div class="mySlides">
-			<div class="numbertext">1 / 9</div>
-			<img style="display:block;" src="{% link assets/images/portfolio_2430.JPG %}">
-		</div>
-		<div class="mySlides">
-			<div class="numbertext">2 / 9</div>
-			<img style="display:block;" src="{% link assets/images/portfolio_2266.JPG %}">
-		</div>
-		<div class="mySlides">
-			<div class="numbertext">3 / 9</div>
-			<img style="display:block;" src="{% link assets/images/portfolio_2367.JPG %}">
-		</div>
-		<!-- Break ROW 2 -->
-		<div class="mySlides">
-			<div class="numbertext">4 / 9</div>
-			<img style="display:block;" src="{% link assets/images/portfolio_1180.JPG %}">
-		</div>
-		<div class="mySlides">
-			<div class="numbertext">5 / 9</div>
-			<img style="display:block;" src="{% link assets/images/about_1160.JPG %}">
-		</div>
-		<div class="mySlides">
-			<div class="numbertext">6 / 9</div>
-			<img style="display:block;" src="{% link assets/images/portfolio_1156.JPG %}">
-		</div>
-		<!-- Break ROW 3 -->
-		<div class="mySlides">
-			<div class="numbertext">7 / 9</div>
-			<img style="display:block;" src="{% link assets/images/portfolio_6186.JPG %}">
-		</div>
-		<div class="mySlides">
-			<div class="numbertext">8 / 9</div>
-			<img style="display:block;" src="{% link assets/images/portfolio_6200.JPG %}">
-		</div>
-		<div class="mySlides">
-			<div class="numbertext">9 / 9</div>
-			<img style="display:block;" src="{% link assets/images/portfolio_6226.JPG %}">
-		</div>
-		<!-- Next/previous controls -->
-		<a class="prev" onclick="plusSlides(-1)" style="border-bottom-style: none;">&#10094;</a>
-		<a class="next" onclick="plusSlides(1)" style="border-bottom-style: none;">&#10095;</a>
-		<!-- Caption text 
-		<div class="caption-container">
-			<p id="caption"></p>
-		</div> -->
-		<!-- Thumbnail image controls 
-		<div class="column">
-			<img class="demo" src="{% link assets/images/portfolio_2430.JPG %}" onclick="currentSlide(1)" alt="Nature">
-		</div>
-		<div class="column">
-			<img class="demo" src="{% link assets/images/portfolio_2266.JPG %}" onclick="currentSlide(2)" alt="Snow">
-		</div>
-		<div class="column">
-			<img class="demo" src="{% link assets/images/portfolio_2367.JPG %}" onclick="currentSlide(3)" alt="Mountains">
-		</div>
-		<div class="column">
-			<img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
-		</div> -->
-  	</div>
-</div>
-
-
-<script>
-// Open the Modal
-var modal = document.getElementById("slideModal")
-
-function openModal() {
-  modal.classList.add('slide-modal-visible');
-}
-
-// Close the Modal
-// Close by clicking on element with onclick:CloseModal() function:
-function closeModal() {
-  modal.classList.remove('slide-modal-visible');
-}
-
-// When the user clicks anywhere outside of the modal, close the modal:
-window.onclick = function(event) {
-	if (event.target == modal) {
-		modal.classList.remove('slide-modal-visible');
-	}
-}
-
-// Add event listener to close modal on ESC key press
-document.addEventListener('keydown', function(event) {
-	if (event.key === 'Escape') {
-		modal.classList.remove('slide-modal-visible');
-	}
-});
-
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  //var captionText = document.getElementById("caption");
-  
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  //captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
-
-
-<script>
-	// Aviram's to-do list of the gallery implementation:
-	// * Make the background blurred out when gallery is open
-	// * Make images transition fadein\fadeout between them
-	// * DONE - Position the popped up image in center, with bezels (spacing) from top and bottom of browser
-	// * Merge the gallery script into _main.js ??
-	// * Add rounded edges to the pics in gallery
-	// * Create infrastructure for single image enlarge pop-up for blog posts
-</script>
