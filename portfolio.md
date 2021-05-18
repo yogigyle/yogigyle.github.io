@@ -33,6 +33,8 @@ nav-menu: true
 			<div class="4u"><span class="image fit"><img src="{% link assets/images/portfolio_2266.JPG %}" alt="" /></span></div>
 			<div class="4u$"><span class="image fit"><img src="{% link assets/images/portfolio_2367.JPG %}" alt="" /></span></div>
 			<!-- Break ROW 2 -->
+			<div class="4u"><span class="image fit"><img src="{% link assets/images/portfolio_1180.JPG %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit"><img src="{% link assets/images/about_1160.JPG %}" alt="" /></span></div>
 			<div class="4u$"><span class="image fit"><img src="{% link assets/images/portfolio_1156.JPG %}" alt="" /></span></div>
 			<!-- Break ROW 3 -->
 			<div class="4u"><span class="image fit"><img src="{% link assets/images/portfolio_6186.JPG %}" alt="" /></span></div>
