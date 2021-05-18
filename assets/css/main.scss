@@ -1,7 +1,5 @@
 ---
 ---
-// [AVIRAM 2021-05-17] Triple dashed lines are required for Jekyll - this is "Front Matter" section
-
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
@@ -65,9 +63,8 @@
 	@import 'components/tiles';
 	@import 'components/contact-method';
 	@import 'components/spotlights';
-	@import 'components/spotlights2'; // [Aviram's addition]
-	@import 'components/comment-styles'; // [Aviram's addition]
-	@import 'components/image-modal'; // [Aviram's addition]
+	@import 'components/spotlights2';
+	@import 'components/comment-styles';
 
 // Layout.
 
