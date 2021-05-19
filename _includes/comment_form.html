@@ -1,3 +1,4 @@
+<!-- Add new comment form -->
 <form class="js-form form" method="post" action="{{ site.staticman_url }}">
   <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
   <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
@@ -23,6 +24,7 @@
       <input class="text" name="fields[email]" type="email" id="email" placeholder="Your email (optional)"/>
     </div>
 
+    <!-- [Aviram] What is field HP ??? -->
     <div class="field hp">
       <label for="hp"></label>
       <input class="text" name="fields[hp]" id="hp" type="text" placeholder="Leave blank">
@@ -38,6 +40,7 @@
 
 </form>
 
+<!-- Modal pop-up after submitting a comment -->
 <article class="modal mdl-card mdl-shadow--2dp">
   <div>
     <h3 class="modal-title">Comment Submitted</h3>
