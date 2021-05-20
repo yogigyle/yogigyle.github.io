@@ -28,7 +28,7 @@ author: null
 <section id="two" class="spotlights2">
 	<!-- Beginners -->
 	<section>
-		<a href="{% post_url 2021-04-28-beginners %}" class="image">
+		<a href="{% post_url 2021-04-28-beginners %}" class="image hover-img">
 			<img src="{% link assets/images/beginners_2356_banner.JPG %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
@@ -45,7 +45,7 @@ author: null
 	</section>
 	<!-- Flexibility -->
 	<section>
-		<a href="{% post_url 2021-03-15-flexibility %}" class="image">
+		<a href="{% post_url 2021-03-15-flexibility %}" class="image hover-img">
 			<img src="{% link assets/images/portfolio_1156.JPG %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
@@ -62,7 +62,7 @@ author: null
 	</section>
 	<!-- Expectations -->
 	<section>
-		<a href="{% post_url 2021-02-20-expectations %}" class="image">
+		<a href="{% post_url 2021-02-20-expectations %}" class="image hover-img">
 			<img src="{% link assets/images/expectations_1150_banner.JPG %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
@@ -79,7 +79,7 @@ author: null
 	</section>
 	<!-- Charkas, Part 2 -->
 	<section>
-		<a href="{% post_url 2021-02-13-chakras2 %}" class="image">
+		<a href="{% post_url 2021-02-13-chakras2 %}" class="image hover-img">
 			<img src="{% link assets/images/chakras_anahata.JPG %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
@@ -96,7 +96,7 @@ author: null
 	</section>
 	<!-- Charkas, Part 1 -->
 	<section>
-		<a href="{% post_url 2021-02-06-chakras1 %}" class="image">
+		<a href="{% post_url 2021-02-06-chakras1 %}" class="image hover-img">
 			<img src="{% link assets/images/chakras_swadhis.JPG %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
@@ -113,7 +113,7 @@ author: null
 	</section>
 	<!-- Vayus -->
 	<section> 
-		<a href="{% post_url 2021-01-30-vayus %}" class="image">
+		<a href="{% post_url 2021-01-30-vayus %}" class="image hover-img">
 			<img src="{% link assets/images/vayus_udana.JPG %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
