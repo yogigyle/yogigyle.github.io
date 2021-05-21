@@ -54,41 +54,41 @@ nav-menu: true
 		<!-- Start ROW 1 -->
 		<div class="mySlides">
 			<div class="numbertext">1 / 9</div>
-			<img style="display:block;" src="{% link assets/images/portfolio_2430.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_2430.JPG %}">
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">2 / 9</div>
-			<img style="display:block;" src="{% link assets/images/portfolio_2266.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_2266.JPG %}">
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">3 / 9</div>
-			<img style="display:block;" src="{% link assets/images/portfolio_2367.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_2367.JPG %}">
 		</div>
 		<!-- Break ROW 2 -->
 		<div class="mySlides">
 			<div class="numbertext">4 / 9</div>
-			<img style="display:block;" src="{% link assets/images/portfolio_1180.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_1180.JPG %}">
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">5 / 9</div>
-			<img style="display:block;" src="{% link assets/images/about_1160.JPG %}">
+			<img class="popImage" src="{% link assets/images/about_1160.JPG %}">
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">6 / 9</div>
-			<img style="display:block;" src="{% link assets/images/portfolio_1156.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_1156.JPG %}">
 		</div>
 		<!-- Break ROW 3 -->
 		<div class="mySlides">
 			<div class="numbertext">7 / 9</div>
-			<img style="display:block;" src="{% link assets/images/portfolio_6186.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_6186.JPG %}">
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">8 / 9</div>
-			<img style="display:block;" src="{% link assets/images/portfolio_6200.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_6200.JPG %}">
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">9 / 9</div>
-			<img style="display:block;" src="{% link assets/images/portfolio_6226.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_6226.JPG %}">
 		</div>
 		<!-- Next/previous controls -->
 		<a class="prevslide" onclick="plusSlides(-1)" style="border-bottom-style: none;">&#10094;</a>

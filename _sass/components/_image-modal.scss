@@ -97,7 +97,7 @@
 /* Hide the slides by default */
 .mySlides {
   display: none;
-  padding: 3em;
+  padding: 3em; // This padding enables pushin the prev\next arrows to show outside the image
   //object-fit: cover;
   //background-size: cover;
   //max-height: 100vh;
@@ -110,6 +110,11 @@
   /*opacity: 1;
   pointer-events: auto;
   visibility: visible;*/
+}
+
+.popImage {
+  display: block;
+  max-height: 90vh;
 }
 
 
@@ -175,11 +180,12 @@ img.demo {
   border-radius: 7px;
   overflow: hidden;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.3s; // Defines the transition time into the hover filter
 }
 
 .hover-img:hover {
   filter: brightness(110%) sepia(25%);
+  background-color: pink;
   //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 

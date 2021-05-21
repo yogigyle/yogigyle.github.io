@@ -29,6 +29,7 @@
 		width: 100%;
 		z-index: _misc(z-index-base) + 2;
 
+		// Designs the inner block where the pages list will be
 		.inner {
 			@include vendor('transition', (
 				'transform #{_duration(menu)} ease-out',
@@ -54,6 +55,7 @@
 			}
 		}
 
+		// Design of the pages-list itself
 		ul {
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
 
@@ -140,8 +142,8 @@
 	}
 
 	body.is-ie {
-		#menu {
-			background: transparentize(_palette(bg-alt), 0.025);
+		#menu {background: transparentize(_palette(bg-alt), 0.025);
+			
 		}
 	}
 

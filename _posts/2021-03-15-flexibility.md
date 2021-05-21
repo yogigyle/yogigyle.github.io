@@ -8,7 +8,7 @@ image:
 <h2>Three Fundamental Elements of Flexibility</h2>
 
 
-<span class="image left_50"><img src="{% link assets/images/flexibility_1114.JPG %}" alt="" /></span>
+<span class="image left_50 hover-img"><img onclick="openModal();currentSlide(1)" src="{% link assets/images/flexibility_1114.JPG %}" alt="" /></span>
 There’s a commonly held belief that flexibility is a prerequisite of practicing yoga, when in fact the opposite is true; <b>flexibility is just one of the outcomes of a practice that one loves enough to keep coming back to it. You start where you are, and the practice meets you there.</b> Here are the 3 most effective tips I’ve learned over the years for increasing flexibility in a healthy way that yields real, lasting results:
 <hr/>
 <p>
@@ -24,7 +24,7 @@ Use your breath as an indication of what feels good for your body and what doesn
 <p>
 By identifying areas of our body that we need to work MORE on strengthening, we increase our own internal balance and also prevent the parts of our body that ARE naturally stronger and more flexible from overcompensating. If your body resists a stretch, your focus should be on the <b>why</b> you’re experiencing tension; not the <b>how</b> to get your body into that position.
 <p>
-<span class="image right_50"><img src="{% link assets/images/flexibility_1124.JPG %}" alt="" /></span>
+<span class="image right_50 hover-img"><img onclick="openModal();currentSlide(2)" src="{% link assets/images/flexibility_1124.JPG %}" alt="" /></span>
 Our body has a natural “path of least resistance” method of functioning which is essentially a pattern of ignoring weaker areas so that they never become strengthened - and this pattern is a recipe for joint pain, injuries, and that “wear and tear” feeling you might have experienced in your joints (think about how common it is to experience knee and/or back pain). This is why it’s crucial to apply the extra effort, actively targeting naturally weaker areas through your yoga practice.
 <p>
 Keeping your breath slow and long will help your body remain calm by relaxing the nervous system. Centering in on your breath will bring fluidity to the movement, and you’ll notice that if you count your breaths, making your exhales even or longer than your inhales, your movement will become more natural and your muscles will feel lengthened and relaxed. 
@@ -38,3 +38,22 @@ I hope you find these tips helpful in working to improve your own flexibility �
 Love,<br/>
 Avigyle
 </p>
+
+<!-- The Modal/Lightbox -->
+<div id="slideModal" class="slide-modal">
+	<!-- The Close button -->
+	<span class="close" onclick="closeModal()">&times;</span>
+	<!-- Modal content -->
+	<div class="modal-content">
+		<!-- The slides\images -->
+		<div class="mySlides">
+			<img class="popImage" src="{% link assets/images/flexibility_1114.JPG %}">
+		</div>
+		<div class="mySlides">
+			<img class="popImage" src="{% link assets/images/flexibility_1124.JPG %}">
+		</div>
+  	</div>
+</div>
+
+<!-- Calling the JavaScript code -->
+<script src="{{ '/assets/js/gallery.js' | relative_url }}"></script>
