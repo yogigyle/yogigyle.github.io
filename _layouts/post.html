@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 
 {% include head.html %}
@@ -19,7 +24,8 @@
 		</header>
 		{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
 		{{ content }}
-
+		
+		<!-- [Aviram] built-in button to return to "All Posts" ("Elements") page -->
 		<ul class="actions" style="text-align:right">
 			<li><a href="/elements" class="button next">Back to Elements</a></li>
 		</ul>
@@ -29,7 +35,7 @@
 <!-- Main -->
 <div id="main">
 
-<!-- Comments -->
+<!-- [Aviram] Comments section -->
 <section>
 	<div class="inner">
 		{% if page.comments == true %}
@@ -39,7 +45,7 @@
 </section>
 
 </div>
-
+	<!-- [Aviram] minimal footer layout to avoid the formspree section -->
     {% include footer_minimal.html %}
 
 </body>

@@ -9,7 +9,6 @@
     'opacity #{_duration(menu)} ease',
     'visibility #{_duration(menu)}'
   ));
-  //display: block; 
   position: fixed; /* Stay in place (originall was "fixed"*/
   z-index: 99999; /* Sit on top */
   left: 0;
@@ -23,16 +22,17 @@
   visibility: hidden;
 }
 
-/* Added by function bringUpModal() */
+/* Added by function openModal() */
 .slide-modal-visible {
   opacity: 1;
   pointer-events: auto;
   visibility: visible;
+}
 
-  #wrapper { // Doesn't work currently - need to fix!
-    filter: blur(0.5em); 
-    @include vendor('filter', 'blur(0.5em)');
-  }
+.wrapperBlur > *:not(.slide-modal) {
+  //at-root: blur(0.5em); 
+  //-webkit-filter: blur(8px);
+  @include vendor('filter', 'blur(0.5em)');
 }
 
 /* Modal Content */
@@ -98,23 +98,12 @@
 .mySlides {
   display: none;
   padding: 3em; // This padding enables pushin the prev\next arrows to show outside the image
-  //object-fit: cover;
-  //background-size: cover;
-  //max-height: 100vh;
-  //max-width: 90%;
-}
-
-.mySlides-visible {
-  display: block;
-  //transition: transform .35s ease, opacity .35s ease, visibility .35s;
-  /*opacity: 1;
-  pointer-events: auto;
-  visibility: visible;*/
 }
 
 .popImage {
   display: block;
   max-height: 90vh;
+  max-width: 80vw;
 }
 
 
