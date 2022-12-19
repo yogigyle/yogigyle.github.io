@@ -38,7 +38,7 @@ By engaging the opposing muscles and keeping them flexed, you’ll become able t
 
 <h4>6. Finding a teacher that speaks to you makes all the difference</h4>
 <p>
-Yoga is learned through seeing and hearing, and this is especially true for beginners who can benefit from a live teacher providing verbal cues and hands-on adjustments. Finding a teacher who inspires you is truly a gift because it allows you to use their cues to get out of your own head and take a break from the constant questioning and thinking about what to do next in a sequence.
+Yoga is learned through first-hand experience, and this is especially true for beginners who can benefit from a live teacher providing verbal cues and hands-on adjustments. Finding a teacher who inspires you is truly a gift because it allows you to use their cues to get out of your own head and take a break from the constant questioning and thinking about what to do next in a sequence.
 <p>
 If you receive engaging, informative cues that capture your attention throughout a class, of course you will enjoy the practice more. At the same time, keep in mind that your practice is just that – YOURS. Respect your own pace, and if a teacher cues a position that doesn’t feel right, never feel obligated to follow. There are countless teachers out there, so try out a few online platforms (Alo Moves and YogaGlo are two great ones if live classes aren’t an option) and start exploring!
 <hr/>
