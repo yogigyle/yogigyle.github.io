@@ -44,11 +44,11 @@ exclude:
 - README.md 
 
 # Staticman v2 comments
-staticman_url: https://yogigyle-staticman.herokuapp.com/v2/entry/yogigyle/yogigyle.github.io/master/comments
+# staticman_url: https://yogigyle-staticman.onrender.com/v2/entry/yogigyle/yogigyle.github.io/master/comments
 
 # Staticman v3 comments
-# staticman_url: https://dev.staticman.net/v3/entry/github/yogigyle/yogigyle.github.io/master/comments
-# enableComments: true
+staticman_url: https://yogigyle-staticman.onrender.com/v3/entry/github/yogigyle/yogigyle.github.io/master/comments
+enableComments: true
 
 #reCAPTCHA v2:
 reCaptcha:
