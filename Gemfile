@@ -1,4 +1,7 @@
-source "https://rubygems.org"
-gemspec
-gem 'wdm', '>= 0.1.0'
-gem "kramdown-parser-gfm"
+source 'https://rubygems.org'
+
+gem 'jekyll', '~> 4.2'
+
+group :jekyll_plugins do
+  gem 'jekyll-timeago', '~> 0.13.1'
+end

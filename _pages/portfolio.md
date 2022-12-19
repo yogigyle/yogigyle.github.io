@@ -123,5 +123,5 @@ nav-menu: true
 	// * DONE - Position the popped up image in center, with bezels (spacing) from top and bottom of browser
 	// * DONE - Merge the gallery script into _main.js ??
 	// * DONE - Add rounded edges to the pics in gallery
-	// * Create infrastructure for single image enlarge pop-up for blog posts
+	// * DONE - Create infrastructure for single image enlarge pop-up for blog posts
 </script>

@@ -29,7 +29,7 @@
 		width: 100%;
 		z-index: _misc(z-index-base) + 2;
 
-		// Designs the inner block where the pages list will be
+		// [Aviram] Designs the inner block where the pages list will be
 		.inner {
 			@include vendor('transition', (
 				'transform #{_duration(menu)} ease-out',
@@ -55,7 +55,7 @@
 			}
 		}
 
-		// Design of the pages-list itself
+		// [Aviram] Design of the pages-list itself
 		ul {
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
 
@@ -142,14 +142,22 @@
 	}
 
 	body.is-ie {
-		#menu {background: transparentize(_palette(bg-alt), 0.025);
-			
+		#menu {
+			background: transparentize(_palette(bg-alt), 0.025);
 		}
 	}
 
 	body.is-menu-visible {
 		#wrapper {
-			@include vendor('filter', 'blur(0.5em)');
+			@include vendor('filter', 'blur(0.5em)'); // [Aviram] Added blur effect to backgroun when menu is shown
+			-webkit-backface-visibility: hidden;
+			-webkit-perspective: 1000;
+			-webkit-transform: translate3d(0,0,0);
+			-webkit-transform: translateZ(0);
+			backface-visibility: hidden;
+			perspective: 1000;
+			transform: translate3d(0,0,0);
+			transform: translateZ(0);
 		}
 
 		#menu {

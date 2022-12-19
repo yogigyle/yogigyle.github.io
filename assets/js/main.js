@@ -101,11 +101,9 @@
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
 
-			$window.on('load pageshow', function() {
-				window.setTimeout(function() {
-					$body.removeClass('is-loading');
-				}, 100);
-			});
+			window.setTimeout(function() {
+				$body.removeClass('is-loading');
+			}, 200);
 
 		// Clear transitioning state on unload/hide.
 			$window.on('unload pagehide', function() {
@@ -165,6 +163,8 @@
 							.text('')
 							.addClass('primary')
 							.appendTo($this);
+						
+						$x.attr('aria-label', $link.text());
 
 						$link = $link.add($x);
 
@@ -346,6 +346,7 @@
 							$menu._hide();
 
 				});
+
 	});
 
 })(jQuery);

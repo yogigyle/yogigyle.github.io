@@ -21,7 +21,7 @@
 
 		&.alt {
 			background-color: transparent;
-			border-top: solid 1px _palette(border); // [Aviram] this was originally not here in Forty, added to fix top borders not showing on Alt mains!
-			//border-bottom: solid 1px _palette(border); // [Aviram] disabled this to avoid double borders!
+			// border-bottom: solid 1px _palette(border); // [Aviram] disabled this to avoid double borders!
+			border-top: solid 1px _palette(border); // [Aviram] this was originally not here in Forty, added to fix top borders not showing on Alt mains.
 		}
 	}
