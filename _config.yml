@@ -17,19 +17,17 @@ phone: (+972) 58-786-8422
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 4
 
-# social settings (key must match name of font awesome icon)
-# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
-# Icons are not shown if value is empty
-# You need to restart jekyll for changes to have an effect
-socials:
-  GitHub: 
-  GitLab:
-  Google-Plus: 
-  Instagram: https://instagram.com/yogigyle
-  LinkedIn: https://www.linkedin.com/in/avigyle-zeitchik-a48455b0
-  Twitter:
-  Facebook: https://facebook.com/yogigyle
-  Slack:
+# social settings
+500px_url:
+facebook_url: https://facebook.com/yogigyle
+github_url:
+gitlab_url:
+googleplus_url:
+instagram_url: https://instagram.com/yogigyle
+linkedin_url: https://www.linkedin.com/in/avigyle-zeitchik-a48455b0
+pinterest_url:
+slack_url:
+twitter_url:
 
 # build settings
 markdown: kramdown
@@ -43,7 +41,7 @@ exclude:
 - CONTRIBUTING.md
 - README.md 
 
-# Staticman v2 comments
+#Staticman v2 comments
 staticman_url: https://yogigyle-staticman.herokuapp.com/v2/entry/yogigyle/yogigyle.github.io/master/comments
 
 # Staticman v3 comments
