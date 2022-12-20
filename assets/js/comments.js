@@ -19,7 +19,7 @@
 		data: $(this).serialize(),
 		contentType: 'application/x-www-form-urlencoded',
 		success: function (data) {
-		  showModal('Comment Submitted', 'Thank you!\n Your comment is pending moderation and will appear shortly.');
+		  showModal('Comment Submitted', 'Thank you! Your comment is pending moderation and will appear shortly.');
 		  // $("#comment-form-submit").html("Submit"); // [Aviram] make the button show submit again instead of loading animation
 		  $(form)[0].reset();
 		  $(form).removeClass('disabled');
