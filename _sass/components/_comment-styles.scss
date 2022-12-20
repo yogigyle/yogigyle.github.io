@@ -79,8 +79,6 @@ textarea {
     padding: 0px 0px 14px 0px;
 }
 .comment__author {
-    /* margin-top: -80px; /* [Aviram] added to solve the static banner hiding the permalink locations! */
-    /* padding-top: 80px; /* [Aviram] added to solve the static banner hiding the permalink locations! [UPDATE]: CAUSES ISSUE WITH REPLY BUTTON! */
     color: _palette(highlight);
     font-size: 120%;
 }
@@ -158,16 +156,6 @@ textarea {
     display: block;
 }
 
-// [AVIRAM 2020-10-14] Disabling mdl-card to check if indeed OBSOLETE:
-/* .mdl-card {
-    min-height: 200px;
-    overflow: hidden;
-    z-index: 1;
-    position: relative;
-    background: _palette(modal-bg);
-    box-sizing: border-box;
-} */
-
 .modal { /* [Aviram] This is the actual Modal message box */
     display: none;
     position: fixed;
@@ -185,12 +173,7 @@ textarea {
     animation: fadein .25s;
 }
 
-// [AVIRAM 2020-10-14] Disabling mdl-shadow--16dp to check if indeed OBSOLETE:
-/*.mdl-shadow--16dp {
-    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
-} */
-
-.mdl-card__supporting-text {
+.modal-supporting-text {
     overflow: hidden;
     padding: 16px;
     padding-bottom: 20px;
@@ -198,9 +181,10 @@ textarea {
 }
 .modal-title {
     margin-bottom: 0px;
+    padding-left: 16px
 }
 
- .disabled {
+.disabled {
     input,
     button,
     textarea,
@@ -216,7 +200,7 @@ textarea {
 			'opacity #{_duration(menu)} ease',
 			'visibility #{_duration(menu)}'
 		));
-    } 
+    }
 } 
 
 @keyframes fadein {
@@ -227,3 +211,74 @@ textarea {
 		opacity:1;
 	}
 }
+
+//
+/* Spinner loading animation when submitting comments */
+//
+.disabled .loader {
+    display: block;
+} 
+
+.loader,
+.loader:before,
+.loader:after {
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.8s infinite ease-in-out;
+  animation: load7 1.8s infinite ease-in-out;
+}
+.loader {
+  color: #ffffff;
+  display: none;
+  font-size: 10px;
+  margin: 80px auto;
+  position: fixed;   // [Aviram] was "relative"
+  top: 50%;             // [Aviram]
+  left: 50%;            // [Aviram]
+  transform: translate(-50%, -50%);
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+  z-index: 9999999; // [Aviram] 2022-12-22
+}
+.loader:before,
+.loader:after {
+  content: '';
+  position: fixed; // [Aviram] was "absolute"
+  top: 0;
+}
+.loader:before {
+  left: -3.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader:after {
+  left: 3.5em;
+}
+@-webkit-keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+@keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+

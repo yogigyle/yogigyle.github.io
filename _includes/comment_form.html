@@ -7,6 +7,9 @@
   <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
   <input type="hidden" name="options[reCaptcha][secret]"  value="{{ site.reCaptcha.secret }}">
 
+  <!-- Spinner animation when submitting comment -->
+  <div class="loader"></div>
+
   <section>
     <div class="field">
       <label for="message"><h2>Add Comment<small><a rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none;color:darkgray;font-size:60%">&ensp;(Cancel reply)</a></small></h2>
@@ -41,14 +44,14 @@
 </form>
 
 <!-- Modal pop-up after submitting a comment -->
-<article class="modal mdl-card mdl-shadow--2dp">
+<article class="modal">
   <div style="padding:15px">
     <div>
-      <h3 class="modal-title">Comment Submitted</h3>
+      <h3 class="modal-title js-modal-title"></h3>
     </div>
-    <div class="mdl-card__supporting-text">Thank you! <br/> Your comment is pending moderation and will appear shortly.</div>
-    <div class="mdl-card__actions mdl-card--border" style="text-align:right">
-      <a class="button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-close-modal">Close</a>
+    <div class="modal-supporting-text js-modal-text"></div>
+    <div style="text-align:right">
+      <a class="button js-close-modal">Close</a>
     </div>
   </div>
 </article>
