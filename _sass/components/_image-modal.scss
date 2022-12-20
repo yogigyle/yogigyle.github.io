@@ -32,7 +32,7 @@
 .wrapperBlur > *:not(.slide-modal) {
   //at-root: blur(0.5em); 
   //-webkit-filter: blur(8px);
-  @include vendor('filter', 'blur(0.5em)');
+  //@include vendor('filter', 'blur(0.5em)');
 }
 
 /* Modal Content */
