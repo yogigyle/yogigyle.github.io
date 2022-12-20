@@ -9,11 +9,9 @@
 	$('.js-form').submit(function () {
 	  var form = this;
   
-		/* This is the loading/sending message with the moving icon */
-	  $("#comment-form-submit").html(
-		 /* '<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> Sending...' */
-	  );
 	  $(form).addClass('disabled');
+	  // This is the loading/sending message with the moving icon (currently disabled):
+	  // $("#comment-form-submit").html('<svg class="icon spin"><use xlink:href="/assets/icons/icons.svg#icon-loading"></use></svg> Loading...');
   
 	  $.ajax({
 		type: $(this).attr('method'),
