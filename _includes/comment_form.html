@@ -33,8 +33,10 @@
     <ul class="actions">
       <li><div id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div></li>
       <li><p>&emsp;</p></li> <!-- [Aviram] Space to separate the reCAPTCHA and the buttons -->
-      <li><button class="button special" id="comment-form-submit">Submit</button></li>
+      <!-- <li><button class="button special" id="comment-form-submit">Submit</button></li> -->
+      <li><input type="submit" value="Submit" class="special" id="comment-form-submit" /></li>
       <li><input type="reset" value="Clear" /></li>
+      <!-- <li><input type="reset" value="Cancel Reply" rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" /></li>  -->
     </u1>
   </section>
 
@@ -45,9 +47,9 @@
   <div>
     <h3 class="modal-title">Comment Submitted</h3>
   </div>
-  <div class="mdl-card__supporting-text">Thank you! <br/> Your comment will appear shortly.</div>
+  <div class="mdl-card__supporting-text">Thank you! <br/> Your comment is pending moderation and will appear shortly.</div>
   <div class="mdl-card__actions mdl-card--border" style="text-align:right">
-    <button class="button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-close-modal">Close</button>
+    <a class="button mdl-button--colored mdl-js-button mdl-js-ripple-effect js-close-modal">Close</a>
   </div>
 </article>
 
