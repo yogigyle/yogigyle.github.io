@@ -52,23 +52,6 @@ textarea {
 .notify-me, .g-recaptcha {
     padding: 0.5rem 0;
 }
-// [Aviram] Disabled these buttons because my theme has already good buttons!
-/* .button {
-    background: rgba(158,158,158,.2);
-    box-shadow: 0 2px 2px 2px rgba(0,0,0,.14);
-    border: none;
-    border-radius: 2px;
-    padding: 4px 8px;
-    overflow: hidden;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    margin: 4px 0px 0px 0px;
-}
-//button:hover {
-    background-color: $grey-color;
-    color: white;
-} */
 
 //
 // Staticman existing comments
@@ -147,9 +130,10 @@ textarea {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 999; /* This determines the order items (modal/background) appear in the Z direction */
-    background-color: _palette(modal-bg); /* rgba(255, 255, 255, 0.85); */
-    animation: fadein 0.25s;
+    z-index: 99999;                         // This determines the order items (modal/background) appear in the Z direction
+    background-color: _palette(modal-bg);   // original: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(0.25em);          // [Aviram] add background defocus (blur)
+    animation: fadein 0.25s ease-in;
 }
 
 .show-modal .modal {
@@ -217,8 +201,7 @@ textarea {
 //
 .disabled .loader {
     display: block;
-} 
-
+}
 .loader,
 .loader:before,
 .loader:after {
@@ -235,7 +218,7 @@ textarea {
   display: none;
   font-size: 10px;
   margin: 80px auto;
-  position: fixed;   // [Aviram] was "relative"
+  position: fixed;      // [Aviram] was "relative"
   top: 50%;             // [Aviram]
   left: 50%;            // [Aviram]
   transform: translate(-50%, -50%);
@@ -245,7 +228,9 @@ textarea {
   transform: translateZ(0);
   -webkit-animation-delay: -0.16s;
   animation-delay: -0.16s;
-  z-index: 9999999; // [Aviram] 2022-12-22
+  z-index: 99999;                             // [Aviram] added Z to be on top of all content
+//   background-color: rgba(0, 0, 0, 0.25);    // [Aviram] added background opacity for the dofucs (blur) to work
+//   backdrop-filter: blur(0.25em);              // [Aviram] add background defocus (blur)
 }
 .loader:before,
 .loader:after {

@@ -9,7 +9,7 @@
     'opacity #{_duration(menu)} ease',
     'visibility #{_duration(menu)}'
   ));
-  position: fixed; /* Stay in place (originall was "fixed"*/
+  position: fixed; /* Stay in place */
   z-index: 99999; /* Sit on top */
   left: 0;
   top: 0;
@@ -17,9 +17,13 @@
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background: transparentize(_palette(bg), 0.05);
+  backdrop-filter: blur(0.25em); // [Aviram] add background defocus (blur)
   opacity: 0; /* Hidden by default */
   pointer-events: none;
   visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Added by function openModal() */
@@ -29,19 +33,99 @@
   visibility: visible;
 }
 
-.wrapperBlur > *:not(.slide-modal) {
-  //at-root: blur(0.5em); 
-  //-webkit-filter: blur(8px);
-  //@include vendor('filter', 'blur(0.5em)');
-}
-
 /* Modal Content */
 .modal-content {
-  position: fixed;
+  position: relative; // [Aviram] this is a parent so all children positions (the buttons) must be relative to it.
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+  padding: 0em 3em; // This padding makes space to show the prev\next arrows outside the image
+}
+
+.popImage {
+  max-height: 90vh;
+}
+
+
+/* Next & previous buttons */
+.prevslide,
+.nextslide {
+  cursor: pointer;
+  position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 999991;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 5px; //0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  border-bottom-style: none; // [AVIRAM] Used to remove the links underline emphasis
+}
+
+/* Position the "next button" to the right */
+.nextslide {
+  right: 0;
+  border-radius: 5px; //3px 0 0 3px;
+}
+
+/* On hover of next\prev buttons, add a black background color with a little bit see-through */
+@media (hover: hover) { 
+  .prevslide:hover,
+  .nextslide:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  opacity: 0;
+}
+
+/* Caption text 
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}*/
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.hover-img { // [AVIRAM] Was "img.hover-shadow"
+  border-radius: 7px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s; // Defines the transition time into the hover filter
+}
+
+.hover-img:hover {
+  filter: brightness(110%) sepia(25%);
+  background-color: pink;
+  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
 }
 
 /* The Close Button */
@@ -91,96 +175,5 @@
     &:after {
       opacity: 1;
     }
-  }
-}
-
-/* Hide the slides by default */
-.mySlides {
-  display: none;
-  padding: 3em; // This padding enables pushin the prev\next arrows to show outside the image
-}
-
-.popImage {
-  display: block;
-  max-height: 90vh;
-  max-width: 80vw;
-}
-
-
-/* Next & previous buttons */
-.prevslide,
-.nextslide {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 5px; //0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.nextslide {
-  right: 0;
-  border-radius: 5px; //3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-@media (hover: hover) { 
-  .prevslide:hover,
-  .nextslide:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  opacity: 0;
-}
-
-/* Caption text 
-.caption-container {
-  text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
-}*/
-
-img.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
-.hover-img { // [AVIRAM] Was "img.hover-shadow"
-  border-radius: 7px;
-  overflow: hidden;
-  cursor: pointer;
-  transition: 0.3s; // Defines the transition time into the hover filter
-}
-
-.hover-img:hover {
-  filter: brightness(110%) sepia(25%);
-  background-color: pink;
-  //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px) {
-  .modal-content {
-    width: 100%;
   }
 }

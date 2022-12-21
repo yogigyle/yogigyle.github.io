@@ -1,4 +1,4 @@
-// *** JS code to enable pop-up modals with enlarged images ***
+// *** [AVIRAM] JS code to enable pop-up modals with enlarged images ***
 // Open the Modal
 var modal = document.getElementById("slideModal")
 var wrapper = document.getElementById("wrapper")
@@ -35,7 +35,7 @@ function openModal() {
 var slideIndex = 1;
 
 // Run "showSlides" function
-//showSlides(slideIndex); // [AVIRAM] This doesn't seem to be needed, showSlides function is initiated upon clicking on image
+// showSlides(slideIndex); // [AVIRAM] This doesn't seem to be needed, showSlides function is initiated upon clicking on image
 
 // Next/previous controls
 function plusSlides(n) {
@@ -51,8 +51,8 @@ function currentSlide(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  //var dots = document.getElementsByClassName("demo");
-  //var captionText = document.getElementById("caption");
+  // var dots = document.getElementsByClassName("demo");
+  // var captionText = document.getElementById("caption");
   
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
@@ -61,11 +61,11 @@ function showSlides(n) {
     slides[i].style.display = "none";
   }
 
-  /*for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }*/
+  // for (i = 0; i < dots.length; i++) {
+  //   dots[i].className = dots[i].className.replace(" active", "");
+  // }
 
   slides[slideIndex-1].style.display = "block";
-  //dots[slideIndex-1].className += " active";
-  //captionText.innerHTML = dots[slideIndex-1].alt;
+  // dots[slideIndex-1].className += " active";
+  // captionText.innerHTML = dots[slideIndex-1].alt;
 }

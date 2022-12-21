@@ -10,7 +10,7 @@
 	  var form = this;
   
 	  $(form).addClass('disabled');
-	  // This is the loading/sending message with the moving icon (currently disabled):
+	  // [AVIRAM] This is the loading/sending message with the moving icon (currently disabled):
 	  // $("#comment-form-submit").html('<svg class="icon spin"><use xlink:href="/assets/icons/icons.svg#icon-loading"></use></svg> Loading...');
   
 	  $.ajax({
@@ -19,7 +19,7 @@
 		data: $(this).serialize(),
 		contentType: 'application/x-www-form-urlencoded',
 		success: function (data) {
-		  showModal('Comment Submitted', 'Thank you! Your comment is pending moderation and will appear shortly.');
+		  showModal('Comment Submitted', 'Thank you!<br>Your comment is pending moderation and will appear shortly.');
 		  // $("#comment-form-submit").html("Submit"); // [Aviram] make the button show submit again instead of loading animation
 		  $(form)[0].reset();
 		  $(form).removeClass('disabled');
@@ -29,7 +29,7 @@
 		error: function (err) {
 		  console.log(err);
 		  var ecode = (err.responseJSON || {}).errorCode || "unknown";
-		  showModal('Error', 'An error occured.<br>[' + ecode + ']');
+		  showModal('Comment Submission Failed', 'Sorry, something went wrong...<br>[' + ecode + ']');
 		  // $("#comment-form-submit").html("Submit") // [Aviram] make the button show submit again instead of loading animation
 		  $(form).removeClass('disabled');
 		  grecaptcha.reset();

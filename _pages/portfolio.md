@@ -91,8 +91,8 @@ nav-menu: true
 			<img class="popImage" src="{% link assets/images/portfolio_6226.JPG %}">
 		</div>
 		<!-- Next/previous controls -->
-		<a class="prevslide" onclick="plusSlides(-1)" style="border-bottom-style: none;">&#10094;</a>
-		<a class="nextslide" onclick="plusSlides(1)" style="border-bottom-style: none;">&#10095;</a>
+		<a class="prevslide" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="nextslide" onclick="plusSlides(1)">&#10095;</a>
 		<!-- Caption text 
 		<div class="caption-container">
 			<p id="caption"></p>
