@@ -229,8 +229,6 @@ textarea {
   -webkit-animation-delay: -0.16s;
   animation-delay: -0.16s;
   z-index: 99999;                             // [Aviram] added Z to be on top of all content
-//   background-color: rgba(0, 0, 0, 0.25);    // [Aviram] added background opacity for the dofucs (blur) to work
-//   backdrop-filter: blur(0.25em);              // [Aviram] add background defocus (blur)
 }
 .loader:before,
 .loader:after {

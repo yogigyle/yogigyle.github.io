@@ -26,6 +26,23 @@ author: null
 
 <!-- Two -->
 <section id="two" class="spotlights2">
+	<!-- Asanas -->
+	<section>
+		<a href="{% post_url 2022-12-24-asanas %}" class="image hover-img">
+			<img src="{% link assets/images/asanas_2412_banner.JPG %}" alt="" data-position="top center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Releasing Mental & Physical Knots – Welcome to Asanas</h3>
+				</header>
+				<p>Every mental knot we experience has a corresponding physical knot & vice versa. Here are my thoughts on how to use your yoga practice as a tool to release mental, spiritual, and physiological energy blockages.</p>
+				<ul class="actions">
+					<li><a href="{% post_url 2022-12-24-asanas %}" class="button">Continue Reading</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 	<!-- Beginners -->
 	<section>
 		<a href="{% post_url 2021-04-28-beginners %}" class="image hover-img">

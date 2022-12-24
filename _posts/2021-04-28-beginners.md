@@ -6,7 +6,7 @@ comments: true
 image: 
 ---
 <span class="image"><img src="{% link assets/images/beginners_2356_span.JPG %}" alt="" /></span>
-
+<hr/>
 <h4>1. Every flow is different – Trust the process</h4>
 <p>
 Every time you get on your mat, you arrive with a different body and a different experience - and your practice should mirror that. It should be dynamic and constantly evolving, an expression of your mood as it is TODAY. 
