@@ -2,7 +2,7 @@
 layout: page
 title: About Gyle
 description: A journey of the self, through the self, to the self
-image: assets/images/main_about.JPG
+image: assets/images/main_about.webp
 nav-menu: true
 ---
 <!-- Main -->

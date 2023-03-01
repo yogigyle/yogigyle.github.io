@@ -2,7 +2,7 @@
 title: Testimonials
 layout: landing
 description: Quoting the yogis
-image: assets/images/main_testimonials.jpg
+image: assets/images/main_testimonials.webp
 nav-menu: true
 ---
 

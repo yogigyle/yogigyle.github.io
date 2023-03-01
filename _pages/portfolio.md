@@ -2,7 +2,7 @@
 title: Portfolio
 layout: landing
 description: Moments of stillness captured
-image: assets/images/main_portfolio.JPG
+image: assets/images/main_portfolio.webp
 nav-menu: true
 ---
 
@@ -25,7 +25,7 @@ nav-menu: true
 
 <!-- Two -->
 <section id="two">
-	<!-- <span class="image fit"><img src="{% link assets/images/main_banner.JPG %}" alt="" /></span> -->
+	<!-- <span class="image fit"><img src="{% link assets/images/main_banner.webp %}" alt="" /></span> -->
 	<div class="box alt">
 		<div class="row 100% uniform">
 			<!-- Start ROW 1 -->
