@@ -50,10 +50,10 @@ Avigyle</p>
 		<!-- The slides\images -->
 		<!-- Start ROW 1 -->
 		<div class="mySlides">
-			<img style="display:block;" src="{% link assets/images/portfolio_1160.webp %}">
+			<img class="popImage" src="{% link assets/images/portfolio_1160.webp %}">
 		</div>
 		<div class="mySlides">
-			<img style="display:block;" src="{% link assets/images/about_2289.JPG %}">
+			<img class="popImage" src="{% link assets/images/about_2289.JPG %}">
 		</div>
   	</div>
 </div>
