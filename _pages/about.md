@@ -19,7 +19,7 @@ nav-menu: true
 
 
 <!-- Content Option 2 -->
-<span class="image left hover-img"><img onclick="openModal();currentSlide(1)" src="{% link assets/images/about_1160.JPG %}" alt="" /></span>
+<span class="image left hover-img"><img onclick="openModal();currentSlide(1)" src="{% link assets/images/portfolio_1160.webp %}" alt="" /></span>
 <p>I’m Avigyle, raised in NYC and living in Tel Aviv since 2017.</p>
 
 <p>My love affair with yoga began while I was in my final year of University - I was experiencing regular anxiety from a combination of feeling disconnected from myself, craving a creative outlet, and my uncertainty as to what my next “life move” was. I was immediately drawn to the technical aspects of yoga — the physical postures. I was excited by the challenge of teaching my body something new – and my motivation grew stronger as I noticed the benefits; flexibility, strength, and a stillness and connection to my body that I had never felt before. <b>I began to notice the deep sense of inner-calm that I experienced after every practice, and as yoga became more of a habit, I observed that sense of calm influencing my actions and reactions in other areas of life.</b></p>
@@ -50,7 +50,7 @@ Avigyle</p>
 		<!-- The slides\images -->
 		<!-- Start ROW 1 -->
 		<div class="mySlides">
-			<img style="display:block;" src="{% link assets/images/about_1160.JPG %}">
+			<img style="display:block;" src="{% link assets/images/portfolio_1160.webp %}">
 		</div>
 		<div class="mySlides">
 			<img style="display:block;" src="{% link assets/images/about_2289.JPG %}">

@@ -63,7 +63,7 @@ author: null
 	<!-- Flexibility -->
 	<section>
 		<a href="{% post_url 2021-03-15-flexibility %}" class="image hover-img">
-			<img src="{% link assets/images/portfolio_1156.JPG %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/portfolio_1156.webp %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">

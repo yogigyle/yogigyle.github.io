@@ -33,9 +33,9 @@ nav-menu: true
 			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(2)" src="{% link assets/images/portfolio_2266.JPG %}" alt="" /></span></div>
 			<div class="4u$"><span class="image fit hover-img"><img onclick="openModal();currentSlide(3)" src="{% link assets/images/portfolio_2367.JPG %}" alt="" /></span></div>
 			<!-- Break ROW 2 -->
-			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(4)" src="{% link assets/images/portfolio_1180.JPG %}" alt="" /></span></div>
-			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(5)" src="{% link assets/images/about_1160.JPG %}" alt="" /></span></div>
-			<div class="4u$"><span class="image fit hover-img"><img onclick="openModal();currentSlide(6)" src="{% link assets/images/portfolio_1156.JPG %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(4)" src="{% link assets/images/portfolio_1180.webp %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(5)" src="{% link assets/images/portfolio_1160.webp %}" alt="" /></span></div>
+			<div class="4u$"><span class="image fit hover-img"><img onclick="openModal();currentSlide(6)" src="{% link assets/images/portfolio_1156.webp %}" alt="" /></span></div>
 			<!-- Break ROW 3 -->
 			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(7)" src="{% link assets/images/portfolio_6186.JPG %}" alt="" /></span></div>
 			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(8)" src="{% link assets/images/portfolio_6200.JPG %}" alt="" /></span></div>
