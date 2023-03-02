@@ -67,15 +67,15 @@ nav-menu: true
 		<!-- Break ROW 2 -->
 		<div class="mySlides">
 			<div class="numbertext">4 / 9</div>
-			<img class="popImage" src="{% link assets/images/portfolio_1180.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_1180.webp %}">
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">5 / 9</div>
-			<img class="popImage" src="{% link assets/images/about_1160.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_1160.webp %}">
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">6 / 9</div>
-			<img class="popImage" src="{% link assets/images/portfolio_1156.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_1156.webp %}">
 		</div>
 		<!-- Break ROW 3 -->
 		<div class="mySlides">
