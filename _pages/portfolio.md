@@ -29,9 +29,9 @@ nav-menu: true
 	<div class="box alt">
 		<div class="row 100% uniform">
 			<!-- Start ROW 1 -->
-			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(1)" src="{% link assets/images/portfolio_2430.JPG %}" alt="" /></span></div>
-			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(2)" src="{% link assets/images/portfolio_2266.JPG %}" alt="" /></span></div>
-			<div class="4u$"><span class="image fit hover-img"><img onclick="openModal();currentSlide(3)" src="{% link assets/images/portfolio_2367.JPG %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(1)" src="{% link assets/images/portfolio_2430.webp %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(2)" src="{% link assets/images/portfolio_2266.webp %}" alt="" /></span></div>
+			<div class="4u$"><span class="image fit hover-img"><img onclick="openModal();currentSlide(3)" src="{% link assets/images/portfolio_2367.webp %}" alt="" /></span></div>
 			<!-- Break ROW 2 -->
 			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(4)" src="{% link assets/images/portfolio_1180.webp %}" alt="" /></span></div>
 			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(5)" src="{% link assets/images/portfolio_1160.webp %}" alt="" /></span></div>
@@ -54,15 +54,15 @@ nav-menu: true
 		<!-- Start ROW 1 -->
 		<div class="mySlides">
 			<div class="numbertext">1 / 9</div>
-			<img class="popImage" src="{% link assets/images/portfolio_2430.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_2430.webp %}">
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">2 / 9</div>
-			<img class="popImage" src="{% link assets/images/portfolio_2266.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_2266.webp %}">
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">3 / 9</div>
-			<img class="popImage" src="{% link assets/images/portfolio_2367.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_2367.webp %}">
 		</div>
 		<!-- Break ROW 2 -->
 		<div class="mySlides">
@@ -99,13 +99,13 @@ nav-menu: true
 		</div> -->
 		<!-- Thumbnail image controls
 		<div class="column">
-			<img class="demo" src="{% link assets/images/portfolio_2430.JPG %}" onclick="currentSlide(1)" alt="Nature">
+			<img class="demo" src="{% link assets/images/portfolio_2430.webp %}" onclick="currentSlide(1)" alt="Nature">
 		</div>
 		<div class="column">
-			<img class="demo" src="{% link assets/images/portfolio_2266.JPG %}" onclick="currentSlide(2)" alt="Snow">
+			<img class="demo" src="{% link assets/images/portfolio_2266.webp %}" onclick="currentSlide(2)" alt="Snow">
 		</div>
 		<div class="column">
-			<img class="demo" src="{% link assets/images/portfolio_2367.JPG %}" onclick="currentSlide(3)" alt="Mountains">
+			<img class="demo" src="{% link assets/images/portfolio_2367.webp %}" onclick="currentSlide(3)" alt="Mountains">
 		</div>
 		<div class="column">
 			<img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">

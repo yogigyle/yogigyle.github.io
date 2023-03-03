@@ -14,7 +14,7 @@ nav-menu: true
 		<header class="major">
 			<h1>Avigyle's Story</h1>
 		</header>
-		<span class="image fit"><img src="{% link assets/images/about_2341.JPG %}" alt="" /></span>
+		<span class="image fit"><img src="{% link assets/images/about_2341.webp %}" alt="" /></span>
 		<hr />
 
 
@@ -30,7 +30,7 @@ nav-menu: true
 
 <p>I am humbled to have studied and received my RYT Certification at Yoga Vidya Mandiram in Rishikesh, India, an experience which opened my eyes to a multitude of beautiful ideas and varied philosophies behind the physical practice itself.</p>
 
-<span class="image right hover-img"><img onclick="openModal();currentSlide(2)" src="{% link assets/images/about_2289.JPG %}" alt="" /></span>
+<span class="image right hover-img"><img onclick="openModal();currentSlide(2)" src="{% link assets/images/about_2289.webp %}" alt="" /></span>
 <p>My philosophy is that a desire to love yourself and treat yourself kindly is the only prerequisite for beginning a yoga practice. I currently teach private & small group lessons with sequences that I mold to each individual’s specific goals, allowing everyone to recognize and develop their unique potential. Witnessing this growth and the positive impact it has on my students is one of the most rewarding feelings I experience, and why I continue to embrace opportunities to teach.</p>
 
 <p><b>This website is meant to encourage self-love and exploration on and off the mat, while bringing forth a love and respect for the art of yoga and all that it encompasses. I’ll be sharing original thoughts on yoga philosophy and how yoga has influenced my life, along with favorite poses and techniques that I have used successfully to increase my own strength & flexibility. I would also love to hear and share your experiences, along with suggestions of any additional content you would like me to share.</b></p>
@@ -53,7 +53,7 @@ Avigyle</p>
 			<img class="popImage" src="{% link assets/images/portfolio_1160.webp %}">
 		</div>
 		<div class="mySlides">
-			<img class="popImage" src="{% link assets/images/about_2289.JPG %}">
+			<img class="popImage" src="{% link assets/images/about_2289.webp %}">
 		</div>
   	</div>
 </div>

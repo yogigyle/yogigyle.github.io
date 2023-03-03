@@ -5,7 +5,7 @@ description: Beginners summary in a sentence
 comments: true
 image: 
 ---
-<span class="image"><img src="{% link assets/images/beginners_2356_span.JPG %}" alt="" /></span>
+<span class="image"><img src="{% link assets/images/beginners_2356.webp %}" alt="" /></span>
 <hr/>
 <h4>1. Every flow is different – Trust the process</h4>
 <p>

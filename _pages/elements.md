@@ -29,7 +29,7 @@ author: null
 	<!-- Asanas -->
 	<section>
 		<a href="{% post_url 2022-12-24-asanas %}" class="image hover-img">
-			<img src="{% link assets/images/asanas_2412_banner.JPG %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/asanas_2412_banner.webp %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -46,7 +46,7 @@ author: null
 	<!-- Beginners -->
 	<section>
 		<a href="{% post_url 2021-04-28-beginners %}" class="image hover-img">
-			<img src="{% link assets/images/beginners_2356_banner.JPG %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/beginners_2356_banner.webp %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
