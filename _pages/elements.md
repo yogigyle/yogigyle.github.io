@@ -131,7 +131,7 @@ author: null
 	<!-- Vayus -->
 	<section> 
 		<a href="{% post_url 2021-01-30-vayus %}" class="image hover-img">
-			<img src="{% link assets/images/vayus_udana.JPG %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/vayus_1119.webp %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">

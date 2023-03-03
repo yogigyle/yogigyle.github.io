@@ -8,7 +8,7 @@ image:
 <h2>Three Fundamental Elements of Flexibility</h2>
 
 
-<span class="image left_50 hover-img"><img onclick="openModal();currentSlide(1)" src="{% link assets/images/flexibility_1114.JPG %}" alt="" /></span>
+<span class="image left_50 hover-img"><img onclick="openModal();currentSlide(1)" src="{% link assets/images/flexibility_1114.webp %}" alt="" /></span>
 There’s a commonly held belief that flexibility is a prerequisite of practicing yoga, when in fact the opposite is true; <b>flexibility is just one of the outcomes of a practice that one loves enough to keep coming back to it. You start where you are, and the practice meets you there.</b> Here are the 3 most effective tips I’ve learned over the years for increasing flexibility in a healthy way that yields real, lasting results:
 <hr/>
 <p>
@@ -47,7 +47,7 @@ Avigyle
 	<div class="modal-content">
 		<!-- The slides\images -->
 		<div class="mySlides">
-			<img class="popImage" src="{% link assets/images/flexibility_1114.JPG %}">
+			<img class="popImage" src="{% link assets/images/flexibility_1114.webp %}">
 		</div>
 		<div class="mySlides">
 			<img class="popImage" src="{% link assets/images/flexibility_1124.JPG %}">
