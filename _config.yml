@@ -59,10 +59,10 @@ reCaptcha:
 include:
   - _pages
 
-# [Aviram 2023-02-03] Removing the date from posts URL
-# Before: https://yogigyle.com/2021/01/30/vayus.html
-# After: http://yogigyle.com/elements/vayus
-permalink: /elements/:title
+# [Aviram 2023-02-03] Removing the date from posts URL and prepending "elements" to the blog post filename:
+# BEFORE: https://yogigyle.com/2021/01/30/vayus.html
+# AFTER: http://yogigyle.com/elements/vayus/
+permalink: /elements/:title/
 
 defaults:
   - scope:
