@@ -9,7 +9,7 @@ image:
     <p>
     Here is my take on why it’s best to avoid setting any kind of expectations for a time frame to “master” or “achieve” any specific yoga pose. Expectations take you out of the moment. They take you away from celebrating small victories that mark milestones of progress, and they misplace your focus on things that are not there.
     <p>
-    <span class="image fit"><img src="{% link assets/images/expectations_1150.JPG %}" alt="" /></span>
+    <span class="image fit"><img src="{% link assets/images/expectations_1150.webp %}" alt="" /></span>
     <hr />
 
 <div>

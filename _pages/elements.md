@@ -80,7 +80,7 @@ author: null
 	<!-- Expectations -->
 	<section>
 		<a href="{% post_url 2021-02-20-expectations %}" class="image hover-img">
-			<img src="{% link assets/images/expectations_1150_banner.JPG %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/expectations_1150_banner.webp %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -97,7 +97,7 @@ author: null
 	<!-- Charkas, Part 2 -->
 	<section>
 		<a href="{% post_url 2021-02-13-chakras2 %}" class="image hover-img">
-			<img src="{% link assets/images/chakras_anahata.JPG %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/chakras_anahata_6229.webp %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -114,7 +114,7 @@ author: null
 	<!-- Charkas, Part 1 -->
 	<section>
 		<a href="{% post_url 2021-02-06-chakras1 %}" class="image hover-img">
-			<img src="{% link assets/images/chakras_swadhis.JPG %}" alt="" data-position="top center" />
+			<img src="{% link assets/images/chakras_swadhis_6215.webp %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -131,7 +131,7 @@ author: null
 	<!-- Vayus -->
 	<section> 
 		<a href="{% post_url 2021-01-30-vayus %}" class="image hover-img">
-			<img src="{% link assets/images/vayus_1119.webp %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/vayus_udana_1119.webp %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">

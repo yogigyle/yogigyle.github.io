@@ -24,7 +24,7 @@ Use your breath as an indication of what feels good for your body and what doesn
 <p>
 By identifying areas of our body that we need to work more on strengthening, we increase our own internal balance while preventing the naturally stronger and more flexible parts of our bodies from overcompensating. If your body resists a stretch, your focus should be on the <b>why</b> you’re experiencing tension; not the <b>how</b> to get your body into that position.
 <p>
-<span class="image right_50 hover-img"><img onclick="openModal();currentSlide(2)" src="{% link assets/images/flexibility_1124.JPG %}" alt="" /></span>
+<span class="image right_50 hover-img"><img onclick="openModal();currentSlide(2)" src="{% link assets/images/flexibility_1124.webp %}" alt="" /></span>
 Our body has a natural “path of least resistance” method of functioning, which is essentially a pattern of ignoring weaker areas so that they never become strengthened - and this pattern is a recipe for joint pain, injuries, and that “wear and tear” feeling you might have experienced in your joints (think about how common it is to experience knee and/or back pain). This is why it’s crucial to apply the extra effort to actively target naturally weaker areas through your yoga practice.
 <p>
 Keeping your breath slow and long will help your body remain calm by relaxing the nervous system. Centering in on your breath will bring fluidity to the movement, and you’ll notice that if you count your breaths, making your exhales even or longer than your inhales, your movement will become more natural and your muscles will feel lengthened and relaxed. 
@@ -50,7 +50,7 @@ Avigyle
 			<img class="popImage" src="{% link assets/images/flexibility_1114.webp %}">
 		</div>
 		<div class="mySlides">
-			<img class="popImage" src="{% link assets/images/flexibility_1124.JPG %}">
+			<img class="popImage" src="{% link assets/images/flexibility_1124.webp %}">
 		</div>
   	</div>
 </div>

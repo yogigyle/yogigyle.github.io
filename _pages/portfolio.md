@@ -37,9 +37,9 @@ nav-menu: true
 			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(5)" src="{% link assets/images/portfolio_1160.webp %}" alt="" /></span></div>
 			<div class="4u$"><span class="image fit hover-img"><img onclick="openModal();currentSlide(6)" src="{% link assets/images/portfolio_1156.webp %}" alt="" /></span></div>
 			<!-- Break ROW 3 -->
-			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(7)" src="{% link assets/images/portfolio_6186.JPG %}" alt="" /></span></div>
-			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(8)" src="{% link assets/images/portfolio_6200.JPG %}" alt="" /></span></div>
-			<div class="4u$"><span class="image fit hover-img"><img onclick="openModal();currentSlide(9)" src="{% link assets/images/portfolio_6226.JPG %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(7)" src="{% link assets/images/portfolio_6186.webp %}" alt="" /></span></div>
+			<div class="4u"><span class="image fit hover-img"><img onclick="openModal();currentSlide(8)" src="{% link assets/images/portfolio_6200.webp %}" alt="" /></span></div>
+			<div class="4u$"><span class="image fit hover-img"><img onclick="openModal();currentSlide(9)" src="{% link assets/images/portfolio_6226.webp %}" alt="" /></span></div>
 		</div>
 	</div>
 </section>
@@ -80,15 +80,15 @@ nav-menu: true
 		<!-- Break ROW 3 -->
 		<div class="mySlides">
 			<div class="numbertext">7 / 9</div>
-			<img class="popImage" src="{% link assets/images/portfolio_6186.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_6186.webp %}">
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">8 / 9</div>
-			<img class="popImage" src="{% link assets/images/portfolio_6200.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_6200.webp %}">
 		</div>
 		<div class="mySlides">
 			<div class="numbertext">9 / 9</div>
-			<img class="popImage" src="{% link assets/images/portfolio_6226.JPG %}">
+			<img class="popImage" src="{% link assets/images/portfolio_6226.webp %}">
 		</div>
 		<!-- Next/previous controls -->
 		<a class="prevslide" onclick="plusSlides(-1)">&#10094;</a>
