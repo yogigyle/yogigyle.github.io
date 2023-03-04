@@ -36,12 +36,12 @@
 /* Modal Content */
 .modal-content {
   position: relative; // [Aviram] this is the parent, so all children positions (the buttons) must be relative to it.
-  padding: 0 25px; // [Aviram] adding left-right padding to separate the image from screen borders (mostly mobile)
 }
 
 /* Hide the slides by default */
 .mySlides {
   display: none;
+  padding: 0 40px; // [Aviram] adding left-right padding to separate the image from screen borders (mostly mobile)
 }
 
 .popImage {
@@ -56,14 +56,14 @@
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: auto;
-  padding: 32px 16px;
-  margin-top: -48px;
+  width: 40px;
+  padding: 60px 15px;
+  margin-top: -75px;
   color: white;
-  font-weight: bold;
-  font-size: 20px;
+  // font-weight: bold;
+  font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 15px 15px 0;
+  border-radius: 15px 0 0 15px;
   user-select: none;
   -webkit-user-select: none;
   border-bottom-style: none; // [AVIRAM] Used to remove the links underline emphasis
@@ -71,8 +71,8 @@
 
 /* Position the "next button" to the right */
 .nextslide {
-  right: 25px;  // [AVIRAM] used to offset the right-side button same as the padding around the image
-  border-radius: 15px 0 0 15px;
+  right: 0;  // [AVIRAM] used to offset the right-side button same as the padding around the image
+  border-radius: 0 15px 15px 0;
 }
 
 /* On hover of next\prev buttons, add a black background color with a little bit see-through */
