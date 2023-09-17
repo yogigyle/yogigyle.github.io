@@ -26,6 +26,23 @@ author: null
 
 <!-- Two -->
 <section id="two" class="spotlights2">
+	<!-- Homespace -->
+	<section>
+		<a href="{% post_url 2023-09-17-homespace %}" class="image hover-img">
+			<img src="{% link assets/images/homespace1.webp %}" alt="" data-position="top center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>5 Steps to Creating a Home Practice</h3>
+				</header>
+				<p>Creating an inviting yoga space at home can truly make all the difference by motivating you to stick to a routine. Here are some of my favorite tips for setting up a space that you'll actually want to practice in.</p>
+				<ul class="actions">
+					<li><a href="{% post_url 2023-09-17-homespace %}" class="button">Continue Reading</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 	<!-- Asanas -->
 	<section>
 		<a href="{% post_url 2022-12-24-asanas %}" class="image hover-img">
