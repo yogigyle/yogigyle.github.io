@@ -20,7 +20,7 @@ If you have the space, I’d highly recommend leaving your mat out so it’s rea
 
 <h3>All You Need Is Your Mat & Creativity</h3>
 <p>
-If you have the space, I’d highly recommend leaving your mat out so it’s ready and waiting for you anytime – one less thing to do. If the weather allows it, practicing outdoors (in a backyard, or on a patio or roof) in the fresh air always makes me feel extra zen. You can switch it up – feel it out and see what makes you feel most energized.
+Remember that all you really need to practice is a yoga mat, and enough room to move around 360 degrees. That’s it. Props are fun, but not necessarily essential to buy. It’s easy to make use of things you already have at home – pillows are perfect for adding extra support under your knees, back, or any other part of the body, T-shirts can be used as a strap to improve flexibility, and blocks can be replaced with books.
 
 <h3>Keep It Clean</h3>
 <p>
