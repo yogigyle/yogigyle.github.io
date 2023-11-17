@@ -32,7 +32,7 @@ nav-menu: true
 
 <span class="image right hover-img"><img onclick="openModal();currentSlide(2)" src="{% link assets/images/about_2289.webp %}" alt="" /></span>
 
-<p>I am humbled to have studied and received my RYT Certification at Yoga Vidya Mandiram in Rishikesh, India, where I completed a 200-HR course studying asana techniques, pranayama, yoga philosophy, ayurveda, physical anatomy, and meditation.</p>
+<p>I am humbled to have studied and received my RYT Certification in Rishikesh, India, where I completed a 500-hour course studying asana techniques, pranayama, yoga philosophy, ayurveda, physical anatomy and alignment, and meditation.</p>
 
 <p><b>As a student, I have one goal: to continuously work toward aligning with my truest self while creating a space that supports the growth of my body, mind, and spirit. As a teacher, my intention is to lead my students in the same direction.</b> This website is meant to encourage self-love and exploration on and off the mat, while bringing forth a love and respect for the art of yoga and all that it encompasses.</p>
 
