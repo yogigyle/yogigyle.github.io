@@ -6,8 +6,28 @@
 	<div class="inner">
 		<section>
 			<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> --> <!-- [AVIRAM] Disabled recaptcha in "contact" form -->
-			<form action="https://formspree.io/{{ site.email }}" method="POST">
+			<!-- <form action="https://formspree.io/{{ site.email }}" method="POST"> // This should hide the original FormSpree -->
 				<!-- <input type="hidden" name="_next" value="//yogigyle.com" />  // This is for a paid version of Formspree, to have custom redirect site -->
+				<!-- <div class="field half first">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="_replyto" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions"> -->
+					<!-- <li><div id="reCaptcha" class="g-recaptcha" data-theme="dark" data-sitekey="{{ site.reCaptcha.siteKey }}"></div></li> -->
+					<!-- <li><input type="submit" value="Send Message" class="special" /></li>
+					<li><input type="reset" value="Clear" /></li>
+				</ul>
+			</form> -->
+
+			<form id="contact_formeasy">
 				<div class="field half first">
 					<label for="name">Name</label>
 					<input type="text" name="name" id="name" />
@@ -26,6 +46,7 @@
 					<li><input type="reset" value="Clear" /></li>
 				</ul>
 			</form>
+
 		</section>
 		<section class="split">
 			<section>
@@ -101,3 +122,5 @@
 	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
 	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
 	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/formeasy.js" | absolute_url }}"></script> <!-- [AVIRAM] Script for FormEasy implementation -->
+	<script>var formEasyUrl = '{{ site.formeasy.url }}';</script> <!-- Creating a javascript variable for the formeasy URL, so it can be accessed by js file formeasy.js -->

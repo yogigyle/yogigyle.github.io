@@ -70,3 +70,7 @@ defaults:
       type: "pages"
     values:
       permalink: /:basename/
+
+# [Aviram 2024-04-20] Adding FormEasy URL:
+formeasy:
+  url: https://script.google.com/macros/s/AKfycbxo0crdRI619kf-99RZIrq7XNDbn-5bxLpN50JyyMZlrRnZSJjGuRY-Z1O96jlmh4TkyQ/exec

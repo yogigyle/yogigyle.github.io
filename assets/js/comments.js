@@ -1,8 +1,7 @@
 // Static Comments:
-// [AVIRAM] This whole file (assets\main.js) was added for the sole purpose of Static comments
+// [AVIRAM] This whole file (assets\js\comments.js) was added for the sole purpose of Static comments from: https://github.com/eduardoboucas/popcorn/blob/gh-pages/js/main.js
 // [AVIRAM] You may see there's an additional file named main.js (in assets\js\main.js), that one is the original Forty main.js file
-// [AVIRAM] Not sure why have both main.js files separately, but it works fine as it is today! (2021-05-16)
-// from: https://github.com/eduardoboucas/popcorn/blob/gh-pages/js/main.js
+
 (function ($) {
 	var $comments = $('.js-comments');
   
