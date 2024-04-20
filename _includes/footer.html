@@ -5,8 +5,8 @@
 <section id="contact">
 	<div class="inner">
 		<section>
-			<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> --> <!-- [AVIRAM] Disabled recaptcha in "contact" form -->
-			<!-- <form action="https://formspree.io/{{ site.email }}" method="POST"> // This should hide the original FormSpree -->
+			<!-- This is the old FormSpree implementation, now replaced by FormEasy (see below form) -->
+			<!-- <form action="https://formspree.io/{{ site.email }}" method="POST"> -->
 				<!-- <input type="hidden" name="_next" value="//yogigyle.com" />  // This is for a paid version of Formspree, to have custom redirect site -->
 				<!-- <div class="field half first">
 					<label for="name">Name</label>
@@ -20,14 +20,14 @@
 					<label for="message">Message</label>
 					<textarea name="message" id="message" rows="6"></textarea>
 				</div>
-				<ul class="actions"> -->
-					<!-- <li><div id="reCaptcha" class="g-recaptcha" data-theme="dark" data-sitekey="{{ site.reCaptcha.siteKey }}"></div></li> -->
-					<!-- <li><input type="submit" value="Send Message" class="special" /></li>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" class="special" /></li>
 					<li><input type="reset" value="Clear" /></li>
 				</ul>
 			</form> -->
 
-			<form id="contact_formeasy">
+			<script src="https://www.google.com/recaptcha/api.js" async defer></script> <!-- [AVIRAM] Disabled recaptcha in "contact" form -->
+			<form>
 				<div class="field half first">
 					<label for="name">Name</label>
 					<input type="text" name="name" id="name" />
@@ -41,7 +41,7 @@
 					<textarea name="message" id="message" rows="6"></textarea>
 				</div>
 				<ul class="actions">
-					<!-- <li><div id="reCaptcha" class="g-recaptcha" data-theme="dark" data-sitekey="{{ site.reCaptcha.siteKey }}"></div></li> -->
+					<li><div id="reCaptcha" class="g-recaptcha" data-theme="dark" data-sitekey="{{ site.reCaptcha.siteKey }}"></div></li>
 					<li><input type="submit" onclick="submitForm()" value="Send Message" class="special" /></li>
 					<li><input type="reset" value="Clear" /></li>
 				</ul>

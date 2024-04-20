@@ -8,16 +8,11 @@ function submitForm() {
   var data = {
     "name": document.getElementById('name').value,
     "email": document.getElementById('email').value,
-    "message": document.getElementById('message').value
+    "message": document.getElementById('message').value,
+    "gCaptchaResponse": document.getElementById('g-recaptcha-response').value
   };
 
-  // data.name = document.getElementById('name').value;
-  // data.email = document.getElementById('email').value;
-  // data.message = document.getElementById('message').value;
-
-  const url = 'https://script.google.com/macros/s/AKfycbxo0crdRI619kf-99RZIrq7XNDbn-5bxLpN50JyyMZlrRnZSJjGuRY-Z1O96jlmh4TkyQ/exec';
-
-  fetch(url, {
+  fetch(formEasyUrl, {
     method: 'POST',
     headers: {
       'Content-Type': 'text/plain;charset=utf-8',
