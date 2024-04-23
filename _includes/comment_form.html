@@ -13,7 +13,7 @@
   <section>
     <div class="field">
       <label for="message"><h2>Add Comment</h2>
-        <textarea class="text" name="fields[message]" type="text" id="message" placeholder="Your comment (markdown accepted)" required rows="4"></textarea>
+        <textarea class="text" name="fields[message]" type="text" id="message" placeholder="Your comment" required rows="4"></textarea>
       </label>
     </div>
   
@@ -34,9 +34,9 @@
     </div> -->
 
     <ul class="actions">
-      <li><div id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div></li>
+      <li><div id="reCaptcha" class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}" data-callback="enableBtn" data-expired-callback="disableBtn"></div></li>
       <!-- <li><p>&emsp;</p></li> [Aviram] Space to separate the reCAPTCHA and the buttons -->
-      <li><input type="submit" value="Submit" class="special" id="comment-form-submit" /></li>
+      <li><input type="submit" value="Submit" class="special" id="comment-form-submit" disabled="true" /></li> <!-- [Aviram 2024-04-23] chgnaed type='submit' to type='button' -->
       <!-- <li><input type="reset" value="Clear" /></li> [Aviram] no need for a clear button? -->
       <li><a class="button" rel="nofollow" id="cancel-comment-reply-link" href="{{ page.url | absolute_url }}#respond" style="display:none">Cancel Reply</a></li>
     </u1>

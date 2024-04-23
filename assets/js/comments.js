@@ -151,3 +151,14 @@
 	  return document.getElementById( id );
 	}
   };
+
+
+// [Aviram 2024-04-23] Adding a script to disable the submit button until reCaptcha is done:
+function enableBtn(){
+	document.getElementById("comment-form-submit").disabled = false;
+  }
+
+function disableBtn(){
+	document.getElementById("comment-form-submit").disabled = true;
+  }
+  
