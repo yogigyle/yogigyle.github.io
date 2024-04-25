@@ -53,14 +53,14 @@
 				<div class="contact-method">
 					<span class="icon alt fa-envelope"></span>
 					<h3>Email</h3>
-					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+					<a id=email_obsf href="Hover to reveal">Hover to reveal</a>
 				</div>
 			</section>
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-phone"></span>
 					<h3>Phone</h3>
-					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+					<a id=tel_obsf href="Hover to reveal">Hover to reveal</a>
 				</div>
 			</section>
 			<section>
@@ -123,4 +123,4 @@
 	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
 	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/formeasy.js" | absolute_url }}"></script> <!-- [AVIRAM] Script for FormEasy implementation -->
-	<script>var formEasyUrl = '{{ site.formeasy.url }}';</script> <!-- Creating a javascript variable for the formeasy URL, so it can be accessed by js file formeasy.js -->
+	<script src="{{ "assets/js/email_obsf.js" | absolute_url }}"></script>
