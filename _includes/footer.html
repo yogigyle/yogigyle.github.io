@@ -5,16 +5,15 @@
 <section id="contact">
 	<div class="inner">
 		<section>
-			<!-- This is the old FormSpree implementation, now replaced by FormEasy (see below form) -->
+			<!-- FormSpree (free plan - 50 submissions per month) -->
 			<form action="https://formspree.io/{{ site.email }}" method="POST">
-				<!-- <input type="hidden" name="_next" value="//yogigyle.com" />  // This is for a paid version of Formspree, to have custom redirect site -->
 				<div class="field half first">
 					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
+					<input type="text" name="name" id="name" required />
 				</div>
 				<div class="field half">
 					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
+					<input type="text" name="email" id="email" required />
 				</div>
 				<div class="field">
 					<label for="message">Message</label>
@@ -25,27 +24,26 @@
 					<li><input type="reset" value="Clear" /></li>
 				</ul>
 			</form>
-
-			<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> [AVIRAM] Disabled recaptcha in "contact" form -->
-			<!-- <form>
+			
+			<!-- FabForm - new contact forms implementation - currently DISABLED because it offers no email notifications  -->
+			<!-- <form action="https://fabform.io/f/tUoCGvv" method="POST">
 				<div class="field half first">
 					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
+					<input type="text" name="name" id="name" required />
 				</div>
 				<div class="field half">
 					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
+					<input type="text" name="email" id="email" required />
 				</div>
 				<div class="field">
 					<label for="message">Message</label>
 					<textarea name="message" id="message" rows="6"></textarea>
 				</div>
-				<ul class="actions"> -->
-					<!-- <li><div id="reCaptcha" class="g-recaptcha" data-theme="dark" data-sitekey="{{ site.reCaptcha.siteKey }}"></div></li> -->
-					<!-- <li><input type="submit" onclick="submitForm()" value="Send Message" class="special" /></li>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" class="special" /></li>
 					<li><input type="reset" value="Clear" /></li>
-				</ul> -->
-			</form>
+				</ul>
+			</form> -->
 
 		</section>
 		<section class="split">
