@@ -83,6 +83,5 @@ formeasy:
   url: https://script.google.com/macros/s/AKfycbxo0crdRI619kf-99RZIrq7XNDbn-5bxLpN50JyyMZlrRnZSJjGuRY-Z1O96jlmh4TkyQ/exec
 
 # [Aviram 2025-01-10] Adding Google Analytics:
-analytics:
-  google:
-    id: "G-YCRPFC2Z7Z" # fill in your Google Analytics ID
+google_analytics:
+  id: "G-YCRPFC2Z7Z" # fill in your Google Analytics ID
