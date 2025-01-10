@@ -12,6 +12,8 @@ state:
 zip_code: 
 country: 
 phone: (+972) 58-786-8422
+phone_key_href: 
+phone_key_text: 
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -52,8 +54,13 @@ enableComments: true
 
 #reCAPTCHA v2:
 reCaptcha:
-  siteKey: "6LcLGtYZAAAAAMLmWSGriudVk_R7lwkmJI9ztQvV"
-  secret: "lkxAl9krCLy4UUcdvMSn3TrBYT8y1xe8uLlb005UbpDcA4uVWGQ1H1PhtLTI32zhLK+U90Pz/AyXkFwAGg1Bc3pmwT+JaEzHBCINECu8mxlUc4gzJato8P2Eyp+XpucygwPLTfUmNAtMJNRrVRYNmEKYkTWz9UXEnMk02vAMkuZiGV3/cetTUy0tDoS+Cg0WN4At9qqjHORYAbGjNObMeAtOnhAXJKQeSr4y1GTmXc3yXN7iddQTx9NII9RPc/R1QeAEYj0yjZ4N4Q8kXKHM+C4FRIYxdcaUmlmil5cmMIvGfZyunrp7n8rHchdp/slDpIQq6/e4fosJZaZd8JTIW2sTxkaG3GqJ1DMay66i2vbd1Vd37K+9s9tFTdjMf1Ra32QUp4fPO/fMHvnTMOdR9vOf6/X9UsoiC+8uNlsyj7A3dhTPKp8SzQVyDKniyRfW2u153aIqNlNFHqUvw+jShSfRsCGKDhFQQE+Bts63NArQ7SnIxin9nDFMwAtF+AgSi1eeWLSOysvzfTcl+oVEcaqCSaIVF2+/E5nmSiigHqNyeoJ+IOqZDiktqJs+HJBeC2mYFmKAK/9+RBKu0UBsv7/z+CV6c6ZEoOmz2+3GCtAyunXMT7JXmVHwavnm4ZRolh2s4rqHBuwMHaR5ahjr91QnLurtRf/OB82Ffq1YLKI="
+  # Original keys for production website:
+  # siteKey: "6LcLGtYZAAAAAMLmWSGriudVk_R7lwkmJI9ztQvV" 
+  # secret: "lkxAl9krCLy4UUcdvMSn3TrBYT8y1xe8uLlb005UbpDcA4uVWGQ1H1PhtLTI32zhLK+U90Pz/AyXkFwAGg1Bc3pmwT+JaEzHBCINECu8mxlUc4gzJato8P2Eyp+XpucygwPLTfUmNAtMJNRrVRYNmEKYkTWz9UXEnMk02vAMkuZiGV3/cetTUy0tDoS+Cg0WN4At9qqjHORYAbGjNObMeAtOnhAXJKQeSr4y1GTmXc3yXN7iddQTx9NII9RPc/R1QeAEYj0yjZ4N4Q8kXKHM+C4FRIYxdcaUmlmil5cmMIvGfZyunrp7n8rHchdp/slDpIQq6/e4fosJZaZd8JTIW2sTxkaG3GqJ1DMay66i2vbd1Vd37K+9s9tFTdjMf1Ra32QUp4fPO/fMHvnTMOdR9vOf6/X9UsoiC+8uNlsyj7A3dhTPKp8SzQVyDKniyRfW2u153aIqNlNFHqUvw+jShSfRsCGKDhFQQE+Bts63NArQ7SnIxin9nDFMwAtF+AgSi1eeWLSOysvzfTcl+oVEcaqCSaIVF2+/E5nmSiigHqNyeoJ+IOqZDiktqJs+HJBeC2mYFmKAK/9+RBKu0UBsv7/z+CV6c6ZEoOmz2+3GCtAyunXMT7JXmVHwavnm4ZRolh2s4rqHBuwMHaR5ahjr91QnLurtRf/OB82Ffq1YLKI="
+  
+  # Public keys for testing reCaptcha locally only:
+  siteKey: "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+  secret: "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe"
 
 # [Aviram 2021-05-21] Organizing all .md webpages in a designated folder "_pages", adding below lines to load it properly in Jekyll:
 include:
@@ -74,3 +81,8 @@ defaults:
 # [Aviram 2024-04-20] Adding FormEasy URL:
 formeasy:
   url: https://script.google.com/macros/s/AKfycbxo0crdRI619kf-99RZIrq7XNDbn-5bxLpN50JyyMZlrRnZSJjGuRY-Z1O96jlmh4TkyQ/exec
+
+# [Aviram 2025-01-10] Adding Google Analytics:
+analytics:
+  google:
+    id: "G-YCRPFC2Z7Z" # fill in your Google Analytics ID

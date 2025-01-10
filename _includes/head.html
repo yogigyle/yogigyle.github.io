@@ -7,4 +7,10 @@
 	<link rel="shortcut icon" type="image/png" href="\assets\images\favicon.png"> <!-- [AVIRAM] 2021-04-02 Added FAVICON -->
 	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "assets/css/ie9.css" | relative_url }}" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "assets/css/ie8.css" | relative_url }}" /><![endif]-->
+	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.min.js"></script> <!-- [AVIRAM] 2022-12-22 Added for spinners in comments -->
+	
+	<!-- [AVIRAM 2025-01-10 Add Google Analytics snippet -->
+	{% if jekyll.environment == 'production' and site.google_analytics %}
+		{% include analytics.html %}
+	{% endif %}
 </head>
