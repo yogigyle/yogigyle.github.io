@@ -35,12 +35,10 @@
 		border-bottom: dotted 1px;
 		color: inherit;
 		text-decoration: none;
-
-		@media (hover: hover) { // [AVIRAM 2021-05-18] Added to mitigate on sticky highlight color when using touch screen
-			&:hover {
-				border-bottom-color: transparent;
-				color: _palette(highlight) !important;
-			}
+		
+		&:hover {
+			border-bottom-color: transparent;
+			color: _palette(highlight) !important;
 		}
 
 		&:active {
