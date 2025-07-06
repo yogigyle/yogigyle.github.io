@@ -295,7 +295,7 @@
 					event.stopPropagation();
 				})
 				.on('click', 'a', function(event) {
-
+					if ($(this).attr('target') === '_blank') return;  // [AVIRAM] Allow default behavior for external links.
 					var href = $(this).attr('href');
 
 					event.preventDefault();
